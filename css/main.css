@@ -119,7 +119,7 @@
     margin-right: 30px;
     position: relative;
     border: none;
-    font-family: MontserratMedium; }
+    font-family: verdanaBold; }
   .main_menu_line .btn {
     border: none; }
   .main_menu_line .btn:after {
@@ -146,7 +146,7 @@
     font-size: 18px;
     text-decoration: none;
     margin-right: 10px;
-    font-family: MontserratMedium; }
+    font-family: verdanaBold; }
     .main_menu_service a:last-child {
       margin-right: 0px;
       margin-left: 20px;
@@ -251,11 +251,12 @@
       border-radius: 5px;
       text-transform: uppercase;
       cursor: pointer;
-      font-family: MontserratMedium; }
+      font-family: verdana; }
       .title_dao .title_btn:hover {
         -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        font-family: verdanaBold; }
 
 .main_info {
   display: flex;
@@ -277,7 +278,7 @@
     .main_info .contact a {
       text-decoration: none;
       color: #000;
-      font-family: MontserratMedium;
+      font-family: verdana;
       margin-left: 10px; }
       .main_info .contact a:hover {
         color: #007DC4; }
@@ -304,10 +305,11 @@
       font-size: 12px; }
     .main_info .news a {
       text-decoration: none;
-      font-family: MontserratMedium;
+      font-family: verdana;
       color: #000; }
       .main_info .news a:hover {
-        color: #007DC4; }
+        color: #007DC4;
+        font-family: verdanaBold; }
   .main_info .app {
     flex: 0; }
     .main_info .app img {
@@ -342,7 +344,7 @@ footer {
     flex: 1;
     text-align: center; }
     .footer_flex .clock .city {
-      font-family: MontserratMedium; }
+      font-family: verdanaBold; }
     .footer_flex .clock_item {
       display: inline-block;
       margin-right: 20px; }
@@ -355,15 +357,16 @@ footer {
       color: #007DC4;
       margin-right: 10px; }
       .footer_flex .policy a:hover {
-        font-family: MontserratMedium; }
+        font-family: verdanaBold; }
 
 .section_info {
   margin-top: 50px; }
   .section_info p {
     margin-bottom: 10px;
-    text-align: justify; }
+    text-align: justify;
+    font-family: Montserrat; }
   .section_info span {
     color: #007DC4;
-    margin-bottom: 5px; }
+    font-family: verdanaBold; }
 
 /*# sourceMappingURL=main.css.map */

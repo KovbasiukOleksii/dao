@@ -146,7 +146,7 @@
         margin-right: 30px;
         position:relative;
         border:none;
-        font-family: MontserratMedium;
+        font-family: verdanaBold;
     }
         
     .btn {
@@ -185,7 +185,7 @@
         font-size: 18px;
         text-decoration: none;
         margin-right: 10px;
-        font-family: MontserratMedium; 
+        font-family: verdanaBold; 
         
         &:last-child {
             margin-right: 0px;
@@ -340,12 +340,13 @@
             border-radius: 5px;
             text-transform: uppercase;
             cursor: pointer;
-            font-family: MontserratMedium; 
+            font-family: verdana;
             
             &:hover {
                 -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+                font-family: verdanaBold;
             }
         }
     }
@@ -375,7 +376,7 @@
         a {
             text-decoration: none;
             color: #000;
-            font-family: MontserratMedium;
+            font-family: verdana;
             margin-left: 10px;
             
             &:hover {
@@ -428,11 +429,12 @@
         
         a {
             text-decoration: none;
-            font-family: MontserratMedium;
+            font-family: verdana;
             color: #000;
             
             &:hover {
                 color: #007DC4;
+                font-family: verdanaBold;
             }
         }
     }
@@ -485,7 +487,7 @@ footer {
         text-align: center;
         
         .city {
-            font-family: MontserratMedium;
+            font-family: verdanaBold;
         }
         
         &_item {
@@ -505,7 +507,7 @@ footer {
             margin-right: 10px;
             
             &:hover {
-                font-family: MontserratMedium;
+                font-family: verdanaBold;
             }
         }
     }
@@ -517,10 +519,11 @@ footer {
     p {
         margin-bottom: 10px;
         text-align: justify;
+        font-family: Montserrat;
     }
     
     span {
         color: #007DC4;
-        margin-bottom: 5px;
+        font-family: verdanaBold;
     }
 }
