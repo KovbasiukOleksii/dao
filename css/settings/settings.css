@@ -18,12 +18,19 @@
     src: url(../fonts/Stylo.ttf); /* Путь к файлу со шрифтом */
 }
 
+@font-face {
+    font-family: verdana; /* Гарнитура шрифта */
+    src: url(../fonts/verdana.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+
 
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat, arial;
+    font-family: verdana;
     font-size: 14px;
 }
 
