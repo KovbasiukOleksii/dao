@@ -1,0 +1,507 @@
+/* background */
+
+.main {
+    height: 100vh;
+    background-image: url(../foto_header/Poscosecha%20002.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuToggle {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #757575;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+}
+
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+
+#menu {
+    position: absolute;
+    width: 230px;
+    height: 100vh;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #fff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;   
+  /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li {
+    padding: 15px 0;
+    font-size: 18px;
+    
+    a {
+        text-decoration: none;
+        color: #007DC4;
+        padding-left: 10px;
+    }
+    
+    &:hover {
+        padding-left: 10px;
+        transition: .3s;
+    }
+    
+    img {
+        width: 20px;
+    }
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+    transform: none;
+}
+
+/* nav end */
+
+.main_menu_line {
+    margin-left: 60px;
+    display: inline-block;
+    
+    a {
+        text-decoration: none;
+        color: #007DC4;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 30px;
+        position:relative;
+        border:none;
+        font-family: MontserratMedium;
+    }
+        
+    .btn {
+        border:none;
+    }
+    
+    .btn:after {
+        content:"";
+        width: 0%;
+        height: 1px;
+        background: #007DC4;
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        transition: all .2s ease-in-out;
+    }
+
+    
+    a:hover.btn:after{
+        width: 100%;
+        background: #007DC4;
+    }
+    
+    a:hover.btn:before {
+        right: 60%;
+        background: #007DC4;
+    }
+}
+
+.main_menu_service {
+    display: inline-block;
+    float: right;
+    
+    a {
+        color: #757575;
+        font-size: 18px;
+        text-decoration: none;
+        margin-right: 10px;
+        font-family: MontserratMedium; 
+        
+        &:last-child {
+            margin-right: 0px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        
+        &:hover {
+            color: red;
+        }
+    }
+    
+    input {
+        position: relative;
+        top: -2px;
+    }
+    
+    & .active_lang {
+        text-decoration: none;
+        color: #007DC4;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 10px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        
+        
+        &:hover {
+            color: red;
+            transition: .5s;
+        }
+    }
+    
+    .search {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .search-active {
+        
+        input {
+            opacity: 1;
+            z-index: 1;
+            outline: none;
+        }
+        
+        button {
+            display: block;
+        }
+        
+        .search_img {
+            display: none;
+        }
+    }
+    
+    .search_img {
+        width: 17px;
+        cursor: pointer;
+        margin-right: 30px;
+
+    }
+    
+    button {
+        background: none;
+        box-shadow: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin-right: 30px;
+        appearance: none;
+        width: 20px;
+        position: relative;
+        z-index: 2;
+        display: none;
+
+        
+        img {
+            width: 17px;
+        }
+    }
+    
+    input {
+        width: 160px;
+        padding: 5px 45px 5px 10px;
+        box-sizing: border-box;
+        font-size: 12px;
+        border: none;
+        line-height: 16px;
+        position: absolute;
+        left: -135px;
+        top: -3px;
+        opacity: 0;
+        z-index: -1;
+        transition-duration: .5s;
+        transition-property: opacity;
+    }
+    
+    .enter {
+        text-transform: uppercase;
+    }
+}
+
+.title {
+    margin: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    
+    &_logo {
+        max-width: 370px;
+        
+        img {
+            max-width: 370px;
+        }
+    }
+    
+    h1 {
+        font-size: 40.5px;
+        font-family: stylo, MontserratMedium, arial;
+        color: #D01A1A;
+        padding-bottom: 30px;
+    }
+        
+    &_dao {
+        max-width: 925px;
+        
+        p {
+            font-size: 18px;
+            padding-bottom: 60px;
+            font-family: MontserratMedium;
+            
+            span {
+                font-family: MontserratBold;
+            }
+        }
+            
+        .title_btn {
+            padding: 20px 70px;
+            background: #007DC4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-family: MontserratMedium; 
+            
+            &:hover {
+                -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            }
+        }
+    }
+}
+
+.main_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15%;
+    
+    .contact {
+        width: 455px;
+        margin-right: 30px;
+        margin-left: 60px;
+        
+        h2 {
+            font-family: stylo, MontserratMedium, arial;
+            color: #007DC4;
+            padding-bottom: 15px;
+            font-size: 25px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
+            font-family: MontserratMedium;
+            margin-left: 10px;
+            
+            &:hover {
+                color: #007DC4;
+            }
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        &_skype {
+            img {
+                margin-bottom: -2px;
+            } 
+        }
+        
+        &_viber {
+            img {
+                margin-bottom: -2px;
+            }
+        }
+        
+        &_telegram {
+            img {
+                margin-bottom: -2px;
+            }
+        }
+    }
+    
+    .news {
+        flex: 5;
+        
+        h2 {
+            font-family: stylo , MontserratMedium, arial;
+            color: #007DC4;
+            padding-bottom: 15px;
+            font-size: 25px;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            margin-left: 15px;
+        }
+        
+        span {
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-family: MontserratMedium;
+            color: #000;
+            
+            &:hover {
+                color: #007DC4;
+            }
+        }
+    }
+    
+    .app {
+        flex: 0;
+        
+        img {
+            display: block;
+            align-items: flex-end;
+            margin-bottom: 20px;
+            max-width: 84px;
+            margin-right: 60px;
+        }
+    }
+    
+    .contact_call {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        
+    }
+}
+
+footer {
+    padding: 10px 0;
+    height: 30px;
+    width: 100%;
+    background: #E9E9E9;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .copy {
+        flex: 1;
+        
+        p {
+            font-size: 10px;
+            color: #535353;
+        }
+    }
+    
+    .clock {
+        flex: 1;
+        text-align: center;
+        
+        .city {
+            font-family: MontserratMedium;
+        }
+        
+        &_item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    }
+    
+    .policy {
+        flex: 1;
+        text-align: right;
+        
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #007DC4;
+            margin-right: 10px;
+            
+            &:hover {
+                font-family: MontserratMedium;
+            }
+        }
+    }
+    
+}

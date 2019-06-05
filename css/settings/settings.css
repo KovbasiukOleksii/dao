@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Montserrat; /* Гарнитура шрифта */
+    src: url(../fonts/MontserratRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: MontserratBold; /* Гарнитура шрифта */
+    src: url(../fonts/MontserratBold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: MontserratMedium; /* Гарнитура шрифта */
+    src: url(../fonts/MontserratMedium.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: stylo; /* Гарнитура шрифта */
+    src: url(../fonts/Stylo.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, arial;
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 30px 0 30px;
+}
