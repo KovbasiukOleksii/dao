@@ -212,6 +212,9 @@
     transition-property: opacity; }
   .main_menu_service .enter {
     text-transform: uppercase; }
+    .main_menu_service .enter img {
+      width: 30px;
+      margin-bottom: -6px; }
 
 .title {
   margin: 50px 60px;
@@ -219,9 +222,9 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 10%; }
+  left: 2%;
+  right: 2%;
+  top: 6%; }
   .title_logo {
     max-width: 370px; }
     .title_logo img {
@@ -238,7 +241,8 @@
       padding-bottom: 60px;
       font-family: MontserratMedium; }
       .title_dao p span {
-        font-family: MontserratBold; }
+        font-family: MontserratBold;
+        font-size: 20px; }
     .title_dao .title_btn {
       padding: 20px 70px;
       background: #007DC4;
@@ -258,9 +262,9 @@
   justify-content: space-between;
   margin-top: 100px;
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10%; }
+  left: 2%;
+  right: 2%;
+  bottom: 7%; }
   .main_info .contact {
     width: 455px;
     margin-right: 30px;
@@ -355,5 +359,11 @@ footer {
 
 .section_info {
   margin-top: 50px; }
+  .section_info p {
+    margin-bottom: 10px;
+    text-align: justify; }
+  .section_info span {
+    color: #007DC4;
+    margin-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */

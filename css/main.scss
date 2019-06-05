@@ -285,6 +285,11 @@
     
     .enter {
         text-transform: uppercase;
+        
+        img {
+            width: 30px;
+            margin-bottom: -6px;
+        }
     }
 }
 
@@ -294,9 +299,9 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 10%;
+    left: 2%;
+    right: 2%;
+    top: 6%;
     
     &_logo {
         max-width: 370px;
@@ -323,6 +328,7 @@
             
             span {
                 font-family: MontserratBold;
+                font-size: 20px;
             }
         }
             
@@ -350,9 +356,9 @@
     justify-content: space-between;
     margin-top: 100px;
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    bottom: 7%;
     
     .contact {
         width: 455px;
@@ -507,4 +513,14 @@ footer {
 
 .section_info {
     margin-top: 50px;
+    
+    p {
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    
+    span {
+        color: #007DC4;
+        margin-bottom: 5px;
+    }
 }
