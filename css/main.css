@@ -108,6 +108,9 @@
   transform: none; }
 
 /* nav end */
+.navigation {
+  margin-top: -15px; }
+
 .main_menu_line {
   margin-left: 60px;
   display: inline-block; }
