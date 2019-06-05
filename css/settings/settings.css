@@ -14,11 +14,6 @@
 }
 
 @font-face {
-    font-family: stylo; /* Гарнитура шрифта */
-    src: url(../fonts/Stylo.ttf); /* Путь к файлу со шрифтом */
-}
-
-@font-face {
     font-family: verdana; /* Гарнитура шрифта */
     src: url(../fonts/verdana.ttf); /* Путь к файлу со шрифтом */
 }
