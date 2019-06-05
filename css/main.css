@@ -150,7 +150,7 @@
     font-size: 18px;
     text-decoration: none;
     margin-right: 10px;
-    font-family: verdanaBold; }
+    font-family: verdana; }
     .main_menu_service a:last-child {
       margin-right: 0px;
       margin-left: 20px;
@@ -167,7 +167,8 @@
     font-weight: bold;
     margin-right: 10px;
     text-transform: uppercase;
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-family: verdanaBold; }
     .main_menu_service .active_lang:hover {
       color: red;
       transition: .5s; }
@@ -215,7 +216,8 @@
     transition-duration: .5s;
     transition-property: opacity; }
   .main_menu_service .enter {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: verdanaBold; }
     .main_menu_service .enter img {
       width: 30px;
       margin-bottom: -6px; }

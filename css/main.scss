@@ -191,7 +191,7 @@
         font-size: 18px;
         text-decoration: none;
         margin-right: 10px;
-        font-family: verdanaBold; 
+        font-family: verdana; 
         
         &:last-child {
             margin-right: 0px;
@@ -217,6 +217,7 @@
         margin-right: 10px;
         text-transform: uppercase;
         text-decoration: underline;
+        font-family: verdanaBold; 
         
         
         &:hover {
@@ -291,6 +292,7 @@
     
     .enter {
         text-transform: uppercase;
+        font-family: verdanaBold; 
         
         img {
             width: 30px;
