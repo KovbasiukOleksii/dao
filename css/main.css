@@ -221,7 +221,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 15%; }
+  top: 10%; }
   .title_logo {
     max-width: 370px; }
     .title_logo img {
@@ -352,5 +352,8 @@ footer {
       margin-right: 10px; }
       .footer_flex .policy a:hover {
         font-family: MontserratMedium; }
+
+.section_info {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */

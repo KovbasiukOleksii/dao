@@ -296,7 +296,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 15%;
+    top: 10%;
     
     &_logo {
         max-width: 370px;
@@ -503,5 +503,8 @@ footer {
             }
         }
     }
-    
+}
+
+.section_info {
+    margin-top: 50px;
 }
