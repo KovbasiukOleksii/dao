@@ -259,8 +259,7 @@
       .title_dao .title_btn:hover {
         -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-        font-family: verdanaBold; }
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
 
 .main_info {
   display: flex;
