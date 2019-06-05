@@ -225,8 +225,8 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   position: absolute;
-  left: 2%;
-  right: 2%;
+  left: 1.5%;
+  right: 1.5%;
   top: 6%; }
   .title_logo {
     max-width: 370px; }
@@ -266,11 +266,11 @@
   justify-content: space-between;
   margin-top: 100px;
   position: absolute;
-  left: 2%;
-  right: 2%;
+  left: 1.5%;
+  right: 1.5%;
   bottom: 7%; }
   .main_info .contact {
-    width: 455px;
+    width: 440px;
     margin-right: 30px;
     margin-left: 60px; }
     .main_info .contact h2 {
@@ -282,7 +282,7 @@
       text-decoration: none;
       color: #000;
       font-family: verdana;
-      margin-left: 10px; }
+      margin-left: 5px; }
       .main_info .contact a:hover {
         color: #007DC4; }
     .main_info .contact p {
