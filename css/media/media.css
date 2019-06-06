@@ -44,6 +44,10 @@
         margin-top: 1px;
     }
     
+    .title_dao p {
+        padding-bottom: 40px;
+    }
+    
     .main_menu_service a {
         font-size: 16px;
     }
@@ -81,17 +85,18 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
     .title_logo img {
-        width: 180px;
+        width: 215px;
     }
     
     .title h1 {
-        font-size: 24.5px;
+        font-size: 23.5px;
+        padding-bottom: 15px;
     }
     .title_dao p {
         font-size: 14px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     
     .title_dao p span {
@@ -128,7 +133,53 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 736px) {
+    .footer_flex .policy a {
+        margin-right: 5px;
+    }
+    .title {
+        position: relative;
+        top: -20px;
+    }
+    
+    .title h1 {
+        display: none;
+    }
+    
+    .title_mobile {
+        display: block;
+        text-align: center;
+        font-size: 23.5px;
+        font-family: Stylo;
+        color: #D01A1A;
+        padding-top: 30px;
+    }
+    
+    .title_dao p {
+        padding-bottom: 45px;
+    }
+    
+    .title_logo img {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 712px) {
+    .title_mobile {
+        font-size: 20.5px;
+    }
+    
+    .title_logo img {
+        width: 150px;
+    }
+    
+    .title_dao p {
+        padding-bottom: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
     .container {
         margin-right: 16px;
         margin-left: 16px;
@@ -142,6 +193,7 @@
     
     .main_menu_service .enter {
         margin-left: 10px;
+        font-size: 16px;
     }
     
     .main_menu_service .search_img {

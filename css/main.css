@@ -148,6 +148,9 @@
 .logo_mobile {
   display: none; }
 
+.title_mobile {
+  display: none; }
+
 .main_menu_service {
   display: inline-block;
   float: right;
