@@ -335,6 +335,12 @@
     }
 }
 
+@media only screen and (max-width: 376px) {
+    .policy_only_mobile a {
+        margin-right: 1px;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     .clock_item p {
         font-size: 11px;
@@ -342,5 +348,9 @@
     
     .title h1 {
         font-size: 20.5px;
+    }
+    
+    .policy_only_mobile a {
+        display: none;
     }
 }
