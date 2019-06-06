@@ -180,6 +180,10 @@
     }
 }
 
+.app_header {
+    display: none;
+}
+
 .main_menu_service {
     display: inline-block;
     float: right;
@@ -193,12 +197,6 @@
         margin-right: 10px;
         font-family: verdana; 
         
-        &:last-child {
-            margin-right: 0px;
-            margin-left: 20px;
-            font-weight: bold;
-        }
-        
         &:hover {
             color: red;
         }
@@ -207,6 +205,10 @@
     input {
         position: relative;
         top: -2px;
+    }
+    
+    .lang {
+        display: inline-block;
     }
     
     & .active_lang {
@@ -292,7 +294,10 @@
     
     .enter {
         text-transform: uppercase;
-        font-family: verdanaBold; 
+        font-family: verdanaBold;
+        margin-right: 0px;
+        margin-left: 20px;
+        font-weight: bold;
         
         img {
             width: 30px;
@@ -480,7 +485,7 @@ footer {
     align-items: center;
     
     .copy {
-        flex: 1;
+        flex: 3;
         
         p {
             font-size: 10px;
@@ -489,7 +494,7 @@ footer {
     }
     
     .clock {
-        flex: 1;
+        flex: 6;
         text-align: center;
         
         .city {
@@ -503,7 +508,7 @@ footer {
     }
     
     .policy {
-        flex: 1;
+        flex: 3;
         text-align: right;
         
         a {

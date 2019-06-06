@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1366px) {
     .title_logo img {
-        max-width: 255px;
+        max-width: 290px;
     }
     .title h1 {
         font-size: 29.5px;
@@ -18,6 +18,61 @@
 
 @media only screen and (max-width: 1024px) {
     .main_menu_line {
+        display: none;
+    }
+    
+    .main_info {
+        left: 0;
+        right: 0;
+    }
+    
+    .main_info .app {
+        display: none;
+    }
+    
+    .app_header {
+        display: inline-block;
+        margin-left: 44px;
+    }
+    
+    .app_header img {
+        margin-right: 30px;
+        margin-top: 1px;
+    }
+    
+    .main_menu_service a {
+        font-size: 16px;
+    }
+    .main_menu_service {
+        margin-top: -3px;
+    }
+    
+    .main_info {
+        flex-wrap: wrap;
+    }
+    .main_info .contact {
+        width: 100%;
+        order: 2;
+        margin-bottom: 15px;
+        margin-left: 83px;
+    }
+    .main_info .contact p {
+        display: inline-block;
+        text-align: center;
+        margin-right: 30px;
+    }
+    
+    .main_info .news {
+        width: 100%;
+        margin-left: 77px;
+        margin-bottom: 60px;
+    }
+    
+    .main_info .news p {
+        margin-left: 0;
+    }
+    
+    .main_menu_service .lang {
         display: none;
     }
 }
