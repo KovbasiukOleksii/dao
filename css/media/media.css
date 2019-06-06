@@ -167,7 +167,7 @@
     
     .title_dao p {
         text-align: center;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
         font-size: 13px;
     }
     
@@ -181,29 +181,14 @@
     }
     
     .main_info {
-        bottom: 6%;
+        bottom: 8%;
+        text-align: center;
     }
     
     .main_info .news {
         display: none;
     }
     
-/*
-    .main_info .news {
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 30px;
-    }
-    
-    .main_info .news h2 {
-        text-align: center;
-    }
-    
-    .main_info .news a {
-        font-size: 12px;
-    }
-
-*/
     .main_info .contact_call {
         flex-wrap: wrap;
     }
@@ -219,9 +204,8 @@
     }
     
     .main_info .contact p {
-        display: block;
         padding-bottom: 8px;
-        margin-right: 0;
+        margin-right: 20px;
     }
     
     .main_info .contact a {
