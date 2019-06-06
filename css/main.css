@@ -4,7 +4,8 @@
   background-image: url(../foto_header/Poscosecha%20002.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  overflow: hidden; }
 
 #menuToggle {
   display: inline-block;
