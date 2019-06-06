@@ -94,6 +94,8 @@
       text-decoration: none;
       color: #007DC4;
       margin-right: 10px; }
+      #menu .lang a:hover {
+        text-decoration: underline; }
   #menu .active_lang {
     text-transform: uppercase;
     text-decoration: underline;
@@ -160,7 +162,9 @@
   display: none; }
 
 .title_mobile {
-  display: none; }
+  display: none;
+  font-family: stylo, MontserratMedium, arial;
+  color: #D01A1A; }
 
 .main_menu_service {
   display: inline-block;

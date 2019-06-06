@@ -111,6 +111,10 @@
             text-decoration: none;
             color: #007DC4;
             margin-right: 10px;
+            
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
     
@@ -208,6 +212,8 @@
 
 .title_mobile {
     display: none;
+    font-family: stylo, MontserratMedium, arial;
+    color: #D01A1A;
 }
 
 .main_menu_service {
