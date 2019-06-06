@@ -91,7 +91,7 @@
 
 #menu {
     position: absolute;
-    width: 230px;
+    width: 175px;
     height: 100vh;
     margin: -100px 0 0 -50px;
     padding: 50px;
@@ -184,6 +184,10 @@
     display: none;
 }
 
+.logo_mobile {
+    display: none;
+}
+
 .main_menu_service {
     display: inline-block;
     float: right;
@@ -252,6 +256,7 @@
     
     .search_img {
         width: 17px;
+        height: 16px;
         cursor: pointer;
         margin-right: 30px;
 
@@ -273,6 +278,7 @@
         
         img {
             width: 17px;
+            height: 16px;
         }
     }
     
@@ -470,6 +476,10 @@
     }
 }
 
+.policy_only_mobile {
+    display: none;
+}
+
 footer {
     padding: 10px 0;
     height: 30px;
@@ -485,7 +495,7 @@ footer {
     align-items: center;
     
     .copy {
-        flex: 3;
+        flex: 2;
         
         p {
             font-size: 10px;
@@ -494,7 +504,7 @@ footer {
     }
     
     .clock {
-        flex: 6;
+        flex: 5;
         text-align: center;
         
         .city {

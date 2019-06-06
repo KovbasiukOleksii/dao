@@ -75,7 +75,7 @@
  */
 #menu {
   position: absolute;
-  width: 230px;
+  width: 175px;
   height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -144,6 +144,9 @@
 .app_header {
   display: none; }
 
+.logo_mobile {
+  display: none; }
+
 .main_menu_service {
   display: inline-block;
   float: right;
@@ -186,6 +189,7 @@
     display: none; }
   .main_menu_service .search_img {
     width: 17px;
+    height: 16px;
     cursor: pointer;
     margin-right: 30px; }
   .main_menu_service button {
@@ -201,7 +205,8 @@
     z-index: 2;
     display: none; }
     .main_menu_service button img {
-      width: 17px; }
+      width: 17px;
+      height: 16px; }
   .main_menu_service input {
     width: 160px;
     padding: 5px 45px 5px 10px;
@@ -331,6 +336,9 @@
     justify-content: space-between;
     flex-wrap: nowrap; }
 
+.policy_only_mobile {
+  display: none; }
+
 footer {
   padding: 10px 0;
   height: 30px;
@@ -344,12 +352,12 @@ footer {
   justify-content: space-between;
   align-items: center; }
   .footer_flex .copy {
-    flex: 3; }
+    flex: 2; }
     .footer_flex .copy p {
       font-size: 10px;
       color: #535353; }
   .footer_flex .clock {
-    flex: 6;
+    flex: 5;
     text-align: center; }
     .footer_flex .clock .city {
       font-family: verdanaBold; }

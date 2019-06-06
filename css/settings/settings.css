@@ -35,6 +35,10 @@
     font-size: 14px;
 }
 
+body {
+    height: 85vh;
+}
+
 .container {
     margin: 0 30px 0 30px;
 }
