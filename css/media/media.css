@@ -280,8 +280,8 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .main_info .contact p {
-        margin-right: 5px;
+@media only screen and (max-width: 320px) {
+    .clock_item p {
+        font-size: 11px;
     }
 }
