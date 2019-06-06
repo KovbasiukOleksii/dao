@@ -354,3 +354,10 @@
         display: none;
     }
 }
+
+
+@media only screen and (max-height: 640px) {
+    .main_info .news {
+        display: none;
+    }
+}
