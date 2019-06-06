@@ -162,11 +162,12 @@
     
     .title h1 {
         text-align: center;
+        padding-bottom: 15px;
     }
     
     .title_dao p {
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 15px;
         font-size: 13px;
     }
     
@@ -177,6 +178,10 @@
     .title_dao {
         width: 100%;
         text-align: center;
+    }
+    
+    .main_info {
+        bottom: 6%;
     }
     
     .main_info .news {
@@ -206,7 +211,6 @@
     .main_info .contact {
         margin-left: 16px;
         margin-right: 16px;
-        margin-bottom: 30px;
     }
     
     .main_info .contact h2 {
@@ -216,7 +220,7 @@
     
     .main_info .contact p {
         display: block;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
         margin-right: 0;
     }
     
