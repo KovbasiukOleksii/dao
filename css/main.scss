@@ -1,12 +1,111 @@
 /* background */
 
 .main {
+    background-image: url(../foto_header/head1.jpg);
+    overflow: hidden;
+    width: 100%;
     height: 100vh;
-    background-image: url(../foto_header/Poscosecha%20002.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    backface-visibility: hidden;
+    animation: slideBg 160s linear infinite 0s;
+    animation-timing-function: ease-in-out;    
+    -webkit-animation: slideBg 120s linear infinite 0s;
+}
+
+@keyframes slideBg {
+    0% {
+        background-image: url(../foto_header/head2.jpg);
+        background: rgba (0.0.0.0.5);
+    }
+    
+    10% {
+        background-image: url(../foto_header/head3.jpg);
+        background: rgba (0.0.0.0.5);
+    }
+    
+    20% {
+        background-image: url(../foto_header/head4.jpg);
+    }
+    
+    30% {
+        background-image: url(../foto_header/head5.jpg);
+    }
+    
+    40% {
+        background-image: url(../foto_header/head6.jpg);
+    }
+    
+    50% {
+        background-image: url(../foto_header/head8.jpg);
+    }
+    
+    60% {
+        background-image: url(../foto_header/head9.jpg);
+    }
+    
+    70% {
+        background-image: url(../foto_header/head10.jpg);
+    }
+    
+    80% {
+        background-image: url(../foto_header/head11.jpg);
+    }
+    
+    90% {
+        background-image: url(../foto_header/head12.jpg);
+    }
+    
+    100% {
+        background-image: url(../foto_header/head13.jpg);
+    }
+}
+
+@-webkit-keyframes slideBg {
+    0% {
+        background-image: url(../foto_header/head2.jpg);
+    }
+    
+    10% {
+        background-image: url(../foto_header/head3.jpg);
+    }
+    
+    20% {
+        background-image: url(../foto_header/head4.jpg);
+    }
+    
+    30% {
+        background-image: url(../foto_header/head5.jpg);
+    }
+    
+    40% {
+        background-image: url(../foto_header/head6.jpg);
+    }
+    
+    50% {
+        background-image: url(../foto_header/head8.jpg);
+    }
+    
+    60% {
+        background-image: url(../foto_header/head9.jpg);
+    }
+    
+    70% {
+        background-image: url(../foto_header/head10.jpg);
+    }
+    
+    80% {
+        background-image: url(../foto_header/head11.jpg);
+    }
+    
+    90% {
+        background-image: url(../foto_header/head12.jpg);
+    }
+    
+    100% {
+        background-image: url(../foto_header/head13.jpg);
+    }
 }
 
 #menuToggle {
