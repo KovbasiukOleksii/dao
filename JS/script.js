@@ -34,3 +34,14 @@ function hexoClock() {
 
 hexoClock();
 setInterval(hexoClock, 1000);
+
+jQuery.preloadImages = function()
+ {
+  for(var i = 0; i < arguments.length; i++)
+  {
+   jQuery("<img>").attr("src", arguments[ i ]);
+  }
+ };
+
+$.preloadImages("foto_header/head2.jpg", "foto_header/head3.jpg", "foto_header/head4.jpg", "foto_header/head5.jpg", "foto_header/head6.jpg", "foto_header/head7.jpg", "foto_header/head8.jpg", "foto_header/head9.jpg", "foto_header/head10.jpg"
+, "foto_header/head11.jpg", "foto_header/head12.jpg", "foto_header/head13.jpg");
