@@ -262,7 +262,11 @@
   fill: #007DC4; }
 
 #logo path:nth-child(2) {
-  fill: #FF0000; }
+  fill: #FF0000;
+  opacity: 1;
+  animation: d1 1s linear;
+  animation-iteration-count: 1;
+  animation-delay: 1.5s; }
 
 #logo path:nth-child(3) {
   fill: #007DC4; }
@@ -391,101 +395,101 @@
     fill: #000; } }
 
 #logo .u {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2s; }
 
 #logo .m {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.1s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.1s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.1s; }
 
 #logo .n {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.2s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.2s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.2s; }
 
 #logo .y {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.3s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.3s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.3s; }
 
 #logo .ie {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.4s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.4s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.4s; }
 
 #logo .c {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.5s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.5s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.5s; }
 
 #logo .v {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.6s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.6s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.6s; }
 
 #logo .et {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.7s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.7s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.7s; }
 
 #logo .t {
-  animation: flowers 8.3s linear;
+  animation: flowers 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.8s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.8s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.8s; }
 
@@ -493,10 +497,10 @@
   animation: flowers 8.3s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.9s;
-  -webkit-animation: flowers 8.3s linear;
+  -webkit-animation: flowers 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.9s;
-  -moz-animation: flowers 8.3s linear;
+  -moz-animation: flowers 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.9s; }
 
