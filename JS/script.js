@@ -45,3 +45,16 @@ jQuery.preloadImages = function()
 
 $.preloadImages("foto_header/head2.jpg", "foto_header/head3.jpg", "foto_header/head4.jpg", "foto_header/head5.jpg", "foto_header/head6.jpg", "foto_header/head7.jpg", "foto_header/head8.jpg", "foto_header/head9.jpg", "foto_header/head10.jpg"
 , "foto_header/head11.jpg", "foto_header/head12.jpg", "foto_header/head13.jpg");
+
+$(function () {
+    $(document).on('mousemove', function (e) {
+        $('.bg').css({
+            left: -e.pageX / 10 + 100,
+            top: -e.pageY / 10 + 100
+        });
+        $('.second').css({
+            left: e.pageX / 50 + 200,
+            top: e.pageY / 50 + 200
+        });
+    });
+});

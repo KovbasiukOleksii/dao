@@ -271,116 +271,116 @@
   fill: #FF0000; }
 
 #logo .d {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2s; }
 
 #logo .a {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.1s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.1s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.1s; }
 
 #logo .o {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.2s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.2s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.2s; }
 
 #logo .f {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.3s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.3s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.3s; }
 
 #logo .l {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.4s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.4s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.4s; }
 
 #logo .o1 {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.5s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.5s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.5s; }
 
 #logo .w {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.6s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.6s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.6s; }
 
 #logo .e {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.7s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.7s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.7s; }
 
 #logo .r {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.8s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.8s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.8s; }
 
 #logo .s {
-  animation: d 10s linear;
+  animation: dao 8s linear;
   animation-iteration-count: infinite;
   animation-delay: 2.9s;
-  -webkit-animation: d 10s linear;
+  -webkit-animation: dao 8s linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2.9s;
-  -moz-animation: d 10s linear;
+  -moz-animation: dao 8s linear;
   -moz-animation-iteration-count: infinite;
   -moz-animation-delay: 2.9s; }
 
-@keyframes d {
+@keyframes dao {
   0% {
     fill: #000; }
   5% {
@@ -389,6 +389,126 @@
     fill: #000; }
   100% {
     fill: #000; } }
+
+#logo .u {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2s; }
+
+#logo .m {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.1s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.1s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.1s; }
+
+#logo .n {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.2s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.2s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.2s; }
+
+#logo .y {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.3s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.3s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.3s; }
+
+#logo .ie {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.4s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.4s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.4s; }
+
+#logo .c {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.5s; }
+
+#logo .v {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.6s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.6s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.6s; }
+
+#logo .et {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.7s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.7s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.7s; }
+
+#logo .t {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.8s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.8s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.8s; }
+
+#logo .ty {
+  animation: flowers 8s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.9s;
+  -webkit-animation: flowers 8s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.9s;
+  -moz-animation: flowers 8s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.9s; }
+
+@keyframes flowers {
+  0% {
+    fill: #007DC4; }
+  3% {
+    fill: #D01A1A; }
+  8% {
+    fill: #007DC4; }
+  100% {
+    fill: #007DC4; } }
 
 .title {
   margin: 50px 60px;
