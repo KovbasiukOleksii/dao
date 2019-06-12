@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1366px) {
-    .title_logo img {
+    .title_logo svg {
         max-width: 290px;
     }
     .title h1 {
@@ -92,7 +92,7 @@
 }
 
 @media only screen and (max-width: 850px) {
-    .title_logo img {
+    .title_logo svg {
         width: 215px;
     }
     
@@ -165,7 +165,7 @@
         padding-bottom: 45px;
     }
     
-    .title_logo img {
+    .title_logo svg {
         width: 180px;
     }
 }
@@ -175,7 +175,7 @@
         font-size: 20.5px;
     }
     
-    .title_logo img {
+    .title_logo svg {
         width: 150px;
     }
     
@@ -231,7 +231,7 @@
         font-size: 13px;
     }
     
-    .title_logo img {
+    .title_logo svg {
         display: none;
     }
     

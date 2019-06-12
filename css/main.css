@@ -1,6 +1,6 @@
 /* background */
 .main {
-  background-image: url(../foto_header/head1.jpg);
+  background-image: url(../foto_header/head3.jpg);
   overflow: hidden;
   width: 100%;
   height: 100vh;
@@ -8,44 +8,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   backface-visibility: hidden;
-  animation: slideBg 200s linear infinite 0s;
+  animation: slideBg 120s linear infinite 0s;
   animation-timing-function: ease-in-out;
-  -webkit-transform: translate3d(0, 0, 0); }
-
-@keyframes slideBg {
-  0% {
-    background-image: url(../foto_header/head2.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  10% {
-    background-image: url(../foto_header/head3.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  20% {
-    background-image: url(../foto_header/head4.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  30% {
-    background-image: url(../foto_header/head5.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  40% {
-    background-image: url(../foto_header/head6.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  50% {
-    background-image: url(../foto_header/head8.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  60% {
-    background-image: url(../foto_header/head9.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  70% {
-    background-image: url(../foto_header/head10.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  80% {
-    background-image: url(../foto_header/head11.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  90% {
-    background-image: url(../foto_header/head12.jpg);
-    -webkit-transform: translate3d(0, 0, 0); }
-  100% {
-    background-image: url(../foto_header/head13.jpg);
-    -webkit-transform: translate3d(0, 0, 0); } }
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  animation-delay: 1s; }
 
 #menuToggle {
   display: inline-block;
@@ -291,6 +258,138 @@
       width: 30px;
       margin-bottom: -6px; }
 
+#logo path:nth-child(1) {
+  fill: #007DC4; }
+
+#logo path:nth-child(2) {
+  fill: #FF0000; }
+
+#logo path:nth-child(3) {
+  fill: #007DC4; }
+
+#logo .dot {
+  fill: #FF0000; }
+
+#logo .d {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2s; }
+
+#logo .a {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.1s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.1s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.1s; }
+
+#logo .o {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.2s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.2s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.2s; }
+
+#logo .f {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.3s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.3s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.3s; }
+
+#logo .l {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.4s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.4s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.4s; }
+
+#logo .o1 {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.5s; }
+
+#logo .w {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.6s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.6s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.6s; }
+
+#logo .e {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.7s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.7s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.7s; }
+
+#logo .r {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.8s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.8s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.8s; }
+
+#logo .s {
+  animation: d 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.9s;
+  -webkit-animation: d 10s linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.9s;
+  -moz-animation: d 10s linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 2.9s; }
+
+@keyframes d {
+  0% {
+    fill: #000; }
+  5% {
+    fill: #D01A1A; }
+  10% {
+    fill: #000; }
+  100% {
+    fill: #000; } }
+
 .title {
   margin: 50px 60px;
   display: flex;
@@ -300,10 +399,9 @@
   left: 1.5%;
   right: 1.5%;
   top: 6%; }
-  .title_logo {
-    max-width: 370px; }
-    .title_logo img {
-      max-width: 370px; }
+  .title_logo svg {
+    width: 350pt;
+    height: 180pt; }
   .title h1 {
     font-size: 40.5px;
     font-family: stylo, MontserratMedium, arial;
@@ -412,12 +510,12 @@ footer {
   justify-content: space-between;
   align-items: center; }
   .footer_flex .copy {
-    flex: 2; }
+    flex: 1; }
     .footer_flex .copy p {
       font-size: 10px;
       color: #535353; }
   .footer_flex .clock {
-    flex: 5;
+    flex: 1;
     text-align: center; }
     .footer_flex .clock .city {
       font-family: verdanaBold; }
@@ -425,7 +523,7 @@ footer {
       display: inline-block;
       margin-right: 20px; }
   .footer_flex .policy {
-    flex: 3;
+    flex: 1;
     text-align: right; }
     .footer_flex .policy a {
       text-decoration: none;
