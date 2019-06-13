@@ -17,7 +17,8 @@
 }
 
 body {
-    background: url(../foto_header/head9.jpg);
+    background: url(../foto_header/head4.jpg);
+    background: cover;
     position: absolute;
     height: 100vh;
     width: 100%;
