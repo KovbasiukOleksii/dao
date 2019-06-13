@@ -508,7 +508,7 @@ footer .box {
     display: inline-block;
     position: relative;
     color: #007DC4;
-    font-size: 30px;
+    font-size: 24px;
     font-family: "Stylo";
     font-weight: 400;
     line-height: 30px;
@@ -542,7 +542,8 @@ footer .box {
 }
 #features .features-content-col {
     width: 50%;
-    text-align: left
+    text-align: left;
+    margin-top: -15px;
 }
 #features .features-textblock {
     display: none;
@@ -601,7 +602,7 @@ footer .box {
 }
 
 #features .features-graph {
-    height: 425px;
+    height: 340px;
     margin: 25px
 }
 #features .features-graph .button-holder {
@@ -617,12 +618,13 @@ footer .box {
 #features .features-graph .animation-holder {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-top: 4px;
 }
 
 #features .features-graph .flash-oval {
     width: 12em;
-    height: 12em;
+    height: 4em;
     border-radius: 7em;
     -webkit-transform: translateX(1px);
     -ms-transform: translateX(1px);
@@ -635,7 +637,7 @@ footer .box {
     position: absolute;
     width: 70px;
     right: 15px;
-    top: 15px;
+    top: -2px;
 }
 
 #features .features-graph .btn-with-icon {
@@ -675,7 +677,7 @@ footer .box {
     color: #007DC4;
     font-size: 14px;
     font-weight: 600;
-    line-height: 16px;
+    line-height: 0;
     position: absolute;
     text-transform: uppercase
 }
@@ -715,20 +717,20 @@ footer .box {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/top-left.svg);
     background-size: 100%;
     height: 110px;
-    width: 85px;
+    width: 73px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 36.4%
+    top: 35.4%
 }
 
 #features .features-graph .icon-features-2:after {
     content: ' ';
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/top.svg);
     height: 110px;
-    width: 85px;
+    width: 57px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 36.4%
+    top: 34.4%
 }
 
 #features .features-graph .icon-features-3:after {
@@ -736,10 +738,10 @@ footer .box {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/top-right.svg);
     background-size: 100%;
     height: 110px;
-    width: 85px;
+    width: 73px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 36.4%;
+    top: 35.4%;
     right: 10%
 }
 
@@ -748,10 +750,10 @@ footer .box {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/bottom-left.svg);
     background-size: 100%;
     height: 110px;
-    width: 85px;
+    width: 73px;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 26%
+    bottom: 25%
 }
 
 #features .features-graph .icon-features-5:after {
@@ -769,10 +771,10 @@ footer .box {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/bottom-right.svg);
     background-size: 100%;
     height: 110px;
-    width: 85px;
+    width: 73px;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 26%;
+    bottom: 25%;
     right: 10%
 }
 
@@ -830,7 +832,7 @@ footer .box {
     -webkit-animation-iteration-count: linear;
     animation-iteration-count: linear;
     text-align: center;
-    top: 0
+    top: -16px;
 }
 #features .features-graph .wave2 {
     position: absolute;
@@ -845,7 +847,7 @@ footer .box {
     animation-duration: 2s;
     -webkit-animation-iteration-count: linear;
     animation-iteration-count: linear;
-    top: 0;
+    top: -16px;
     text-align: center
 }
 #features .features-graph .wave3 {
@@ -862,7 +864,7 @@ footer .box {
     -webkit-animation-iteration-count: linear;
     animation-iteration-count: linear;
     text-align: center;
-    top: 0
+    top: -16px;
 }
 
 #features .features-graph .wave4 {
@@ -879,7 +881,7 @@ footer .box {
     -webkit-animation-iteration-count: linear;
     animation-iteration-count: linear;
     text-align: center;
-    top: 0
+    top: -16px;
 }
 @-webkit-keyframes ripple {
     from {
@@ -974,10 +976,6 @@ footer .box {
     padding: 0
 }
 
-#features .features-graph {
-    height: 425px;
-    margin: 25px
-}
 #features .features-graph .button-holder {
     display: flex;
     display: -webkit-box;
@@ -985,11 +983,6 @@ footer .box {
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
-    align-items: center
-}
-#features .features-graph .animation-holder {
-    display: flex;
-    justify-content: center;
     align-items: center
 }
 
