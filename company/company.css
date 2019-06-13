@@ -16,15 +16,19 @@
 	font-style: normal;
 }
 
-
 body {
+    background: url(../foto_header/head9.jpg);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     color: #000;
     font-size: 8px;
     line-height: 14px;
-    min-height: 100vh;
 }
+
 
 .container {
     margin: 0 50px;
@@ -36,8 +40,8 @@ body {
     width: 100%;
     height: 55px;
     -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
--moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    -moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
 }
 
 
@@ -436,11 +440,6 @@ box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
     margin-bottom: -6px; }
 
 
-.title {
-    height: 200px;
-}
-
-
 h1,
 h2,
 h3,
@@ -450,21 +449,13 @@ h5 {
     padding: 0;
 }
 
-
-
-section,
-footer {
-    display: block;
-    min-width: 880px;
-}
-
 section .box,
 footer .box {
     display: block;
     position: relative;
     width: 960px;
     min-width: 860px;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 @media all and (max-width: 860px) {
     header,
@@ -1005,11 +996,11 @@ footer {
     height: 40px;
     width: 100%;
     background: #E9E9E9;
-    position: relative;
+    position: absolute;
     bottom: 0; 
     -webkit-box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
     -moz-box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
-    box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
 }
 
 .footer_flex {
