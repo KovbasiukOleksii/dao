@@ -35,7 +35,7 @@
 }
 
 body {
-    background: url(../foto_header/head4.jpg);
+    background-image: url(../foto_header/head4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
