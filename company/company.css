@@ -439,37 +439,14 @@ h5 {
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family: "icons";
-    src: url(../fonts/icons.woff) format("woff");
-    src: url(../fonts/icons.svg) format("svg");
-    src: url(../fonts/icons.eot) format("eot");
-    src: url(../fonts/icons.eot) format("embedded-opentype");
-    src: url(../fonts/icons.ttf) format("truetype")
-}
-@font-face {
-    font-family: "PragmaticaSlab";
-    src: url(../fonts/PragmaticaSlab-Medium.woff) format("woff");
-    src: url(../fonts/PragmaticaSlab-Medium.svg) format("svg");
-    src: url(../fonts/PragmaticaSlab-Medium.eot) format("eot");
-    src: url(../fonts/PragmaticaSlab-Mediumns.eot) format("embedded-opentype");
-    src: url(../fonts/PragmaticaSlab-Medium.ttf) format("truetype")
-}
+
 
 body {
-    display: block;
-    position: relative;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    min-height: 100vh;
     color: #000;
     font-size: 8px;
     line-height: 14px;
-    -webkit-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
-    text-rendering: geometricPrecision;
-    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -1020,3 +997,64 @@ footer .box {
     justify-content: center;
     align-items: center
 }
+
+footer {
+    padding: 10px 0;
+    height: 40px;
+    width: 100%;
+    background: #E9E9E9;
+    position: absolute;
+    bottom: 0; 
+    -webkit-box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+    -moz-box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+    box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+  
+.footer_flex .copy {
+    flex: 1; 
+}
+
+.footer_flex .copy p {
+      font-size: 10px;
+      color: #535353; 
+}
+  
+.footer_flex .clock {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    line-height: 5px;
+}
+    
+.footer_flex .clock .city {
+    font-family: verdanaBold; 
+}
+
+.footer_flex .clock_item {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.footer_flex .policy {
+    flex: 1;
+    text-align: right; 
+}
+    
+.footer_flex .policy a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #007DC4;
+    margin-right: 10px; 
+}
+      
+.footer_flex .policy a:hover {
+    font-family: verdanaBold; 
+}
+
