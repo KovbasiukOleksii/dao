@@ -1,0 +1,382 @@
+@media only screen and (max-width: 1366px) {
+    .title_logo svg {
+        max-width: 290px;
+    }
+    .title h1 {
+        font-size: 29.5px;
+        padding-bottom: 20px;
+
+    }
+    .title_dao p {
+        font-size: 16px;
+        padding-bottom: 76px;
+    }
+    .title_dao .title_btn {
+        padding: 15px 35px;
+    }
+    
+    .main_menu_line {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .main_menu_service .lang {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main_menu_line {
+        display: none;
+    }
+    
+    .main_info {
+        left: 0;
+        right: 0;
+    }
+    
+    .main_info .app {
+        display: none;
+    }
+    
+    .app_header {
+        display: inline-block;
+        margin-left: 44px;
+    }
+    
+    .app_header img {
+        margin-right: 30px;
+        margin-top: 1px;
+    }
+    
+    .title_dao p {
+        padding-bottom: 40px;
+    }
+    
+    .main_menu_service a {
+        font-size: 16px;
+    }
+    .main_menu_service {
+        margin-top: -3px;
+    }
+    
+    .main_info {
+        flex-wrap: wrap;
+    }
+    .main_info .contact {
+        width: 100%;
+        order: 2;
+        margin-bottom: 15px;
+        margin-left: 73px;
+    }
+    .main_info .contact p {
+        display: inline-block;
+        text-align: center;
+        margin-right: 30px;
+    }
+    
+    .main_info .news {
+        width: 100%;
+        margin-left: 73px;
+        margin-bottom: 60px;
+    }
+    
+    .main_info .news p {
+        margin-left: 0;
+    }
+    
+    .main_menu_service .lang {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .title_logo svg {
+        width: 215px;
+    }
+    
+    .title h1 {
+        font-size: 23.5px;
+        padding-bottom: 15px;
+    }
+    .title_dao p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    
+    .title_dao p span {
+        font-size: 16px;
+    }
+    
+    .title_dao .title_btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .main_info .news {
+        margin-bottom: 20px;
+    }
+    
+    .main_info .news h2 {
+        padding-bottom: 10px;
+    }
+    
+    .main_info .contact h2 {
+        padding-bottom: 10px;
+    }
+    
+    .footer_flex .clock_item {
+        margin-right: 10px;
+    }
+    
+    .clock_item p {
+        font-size: 12px;
+    }
+    
+    .footer_flex .policy a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .footer_flex .policy a {
+        margin-right: 5px;
+    }
+    .title {
+        position: relative;
+        top: -20px;
+    }
+    
+    .title h1 {
+        display: none;
+    }
+    
+    .title_mobile {
+        display: block;
+        text-align: center;
+        font-size: 23.5px;
+        font-family: Stylo;
+        color: #D01A1A;
+        padding-top: 30px;
+    }
+    
+    .title_dao p {
+        padding-bottom: 45px;
+    }
+    
+    .title_logo svg {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 712px) {
+    .title_mobile {
+        font-size: 20.5px;
+    }
+    
+    .title_logo svg {
+        width: 150px;
+    }
+    
+    .title_dao p {
+        padding-bottom: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .container {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    
+    .logo_mobile {
+        display: inline-block;
+        width: 100px;
+        margin-left: 50px    
+    }
+    
+    .main_menu_service .enter {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    
+    .main_menu_service .search_img {
+        margin-right: 10px;
+    }
+    
+    
+    .title {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .app_header {
+        display: none;
+    }
+    
+    .title h1 {
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 23.5px;
+
+    }
+    
+    .title_dao p {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 13px;
+    }
+    
+    .title_logo svg {
+        display: none;
+    }
+    
+    .title_dao {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .main_info {
+        bottom: 10%;
+        text-align: center;
+    }
+    
+    .main_info .news {
+        display: none;
+    }
+    
+    .main_info .contact_call {
+        flex-wrap: wrap;
+    }
+    
+    .main_info .contact {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .main_info .contact h2 {
+        padding-bottom: 15px;
+        text-align: center;
+        font-size: 19.5px;
+    }
+    
+    .main_info .contact p {
+        padding-bottom: 5px;
+        margin-right: 20px;
+    }
+    
+    .main_info .contact a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    
+    .contact_skype {
+        width: 100%;
+    }
+    
+    .contact_viber {
+        width: 100%;
+    }
+    
+    .contact_telegram {
+        width: 100%;
+    }
+    
+    .main_info .contact_viber img {
+        margin-bottom: -3px;
+        width: 12px;
+    }
+    
+    .main_info .contact_skype img {
+        margin-bottom: -3px;
+        width: 12px;
+    }
+    
+    footer {
+        height: 35px;
+    }
+    
+    .footer_flex {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .footer_flex .copy {
+        order: 2;
+    }
+    
+    .footer_flex .copy p {
+        font-size: 8px;
+    }
+    
+    .policy {
+        display: none;
+    }
+    .footer_flex .clock {
+        width: 100%;
+        flex: none;
+        padding-bottom: 4px;
+    }
+    
+    .policy_only_mobile {
+        display: block;
+        margin-left: 16px;
+        margin-right: 16px;
+        position: absolute;
+        bottom: 11%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
+    .policy_only_mobile a {
+        text-decoration: none;
+        font-size: 9px;
+        color: #007DC4;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .policy_only_mobile a {
+        margin-right: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .clock_item p {
+        font-size: 11px;
+    }
+    
+    .title h1 {
+        font-size: 20.5px;
+    }
+    
+    .policy_only_mobile a {
+        display: none;
+    }
+}
+
+
+@media screen and (orientation:landscape) and (max-device-width: 900px) {
+    html{
+        -webkit-transform: rotate(-90deg);
+           -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+             -o-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+        -webkit-transform-origin: left top;
+           -moz-transform-origin: left top;
+            -ms-transform-origin: left top;
+             -o-transform-origin: left top;
+                transform-origin: left top;
+        width: 320px; /*Разрешение экрана iPhone*/
+        position: absolute;
+        top: 100%;
+            left: 0
+    }
+}

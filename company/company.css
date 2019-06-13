@@ -18,7 +18,8 @@
 
 body {
     background: url(../foto_header/head4.jpg);
-    background: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     height: 100vh;
     width: 100%;
