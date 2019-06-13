@@ -16,6 +16,24 @@
 	font-style: normal;
 }
 
+
+@font-face {
+    font-family: "icons";
+    src: url(../fonts/icons.woff) format("woff");
+    src: url(../fonts/icons.svg) format("svg");
+    src: url(../fonts/icons.eot) format("eot");
+    src: url(../fonts/icons.eot) format("embedded-opentype");
+    src: url(../fonts/icons.ttf) format("truetype")
+}
+@font-face {
+    font-family: "PragmaticaSlab";
+    src: url(../fonts/PragmaticaSlab-Medium.woff) format("woff");
+    src: url(../fonts/PragmaticaSlab-Medium.svg) format("svg");
+    src: url(../fonts/PragmaticaSlab-Medium.eot) format("eot");
+    src: url(../fonts/PragmaticaSlab-Mediumns.eot) format("embedded-opentype");
+    src: url(../fonts/PragmaticaSlab-Medium.ttf) format("truetype")
+}
+
 body {
     background: url(../foto_header/head4.jpg);
     background-size: cover;
