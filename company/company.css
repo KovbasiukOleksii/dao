@@ -1004,6 +1004,16 @@ footer .box {
     align-items: center
 }
 
+/* PULSE */
+
+.hidden {
+    display:none;
+} 
+
+.visible {
+    display:block;
+}
+
 footer {
     padding: 10px 0;
     height: 40px;
