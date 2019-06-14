@@ -23,6 +23,7 @@ $(".btn-with-icon").on("click", function() {
     });
 });
 
+
 const search = document.querySelector('.search');
 const body = document.querySelector('body');
 
@@ -59,3 +60,28 @@ function hexoClock() {
 
 hexoClock();
 setInterval(hexoClock, 1000);
+
+$(document).on('click', '.lang a', function(){
+    $(this).addClass('active_lang').siblings().removeClass('active_lang')
+});
+
+
+$('.slider').slick({
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1,
+      }
+    }
+  ]
+});

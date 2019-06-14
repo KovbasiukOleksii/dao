@@ -38,7 +38,6 @@ body {
     background-image: url(../foto_header/head4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -57,6 +56,8 @@ body {
 .header {
     background: #E9E9E9;
     position: fixed;
+    top: 0;
+    z-index: 1;
     width: 100%;
     height: 55px;
     -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
@@ -291,7 +292,7 @@ body {
 .main_menu_line {
     margin-left: 60px;
     display: inline-block; 
-    margin-top: 8px;
+    margin-top: 3px;
 }
 
 .main_menu_line a {
@@ -347,6 +348,7 @@ body {
 .main_menu_service {
     display: inline-block;
     float: right;
+    margin-top: -7px;
 }
 
 .main_menu_service a {
@@ -469,14 +471,23 @@ h5 {
     padding: 0;
 }
 
-section .box,
-footer .box {
+.box {
     display: block;
     position: relative;
     width: 960px;
     min-width: 860px;
     margin: 60px auto;
 }
+
+.box_close {
+    display: block;
+    position: relative;
+    z-index: -1;
+    width: 960px;
+    min-width: 860px;
+    margin: 60px auto;
+}
+
 @media all and (max-width: 860px) {
     header,
     section,

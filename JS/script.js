@@ -58,3 +58,7 @@ $(function () {
         });
     });
 });
+
+$(document).on('click', '.lang a', function(){
+    $(this).addClass('active_lang').siblings().removeClass('active_lang')
+});
