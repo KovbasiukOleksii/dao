@@ -35,17 +35,18 @@
 }
 
 body {
+    display: block;
     background-image: url(../foto_header/head4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    overflow: hidden;
     margin: 0;
     padding: 0;
     color: #000;
     font-size: 8px;
     line-height: 14px;
+    overflow: hidden;
 }
 
 
@@ -490,14 +491,12 @@ h5 {
 
 @media all and (max-width: 860px) {
     header,
-    section,
-    footer {
+    section, {
         width: 100% !important;
         min-width: 600px !important
     }
     header .box,
-    section .box,
-    footer .box {
+    section .box {
         width: 100% !important;
         min-width: 600px !important;
         padding: 1em !important

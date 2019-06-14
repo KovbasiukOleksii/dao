@@ -15,6 +15,12 @@
         display: none;
     }
     
+    .logo_mobile {
+        display: inline-block;
+        width: 100px;
+        margin-left: 50px    
+    }
+    
     .app_header img {
         margin-right: 30px;
         margin-top: 1px;
@@ -33,17 +39,118 @@
 }
 
 @media only screen and (max-width: 850px) {
-
+ 
     .footer_flex .policy a {
         font-size: 10px;
     }
+    
+    .footer_flex .copy {
+        flex: 0.5;
+    }
+    
+    .footer_flex .policy {
+        flex: 0.5;
+    }
+    
+    #features .features-graph .btn-with-icon {
+        height: 55px;
+    }
+    
+    #features .features-graph .label-top-left {
+        top: 27%;
+    }
+    
+    #features .features-graph .label-top {
+        top: 27%;
+    }
+    
+    #features .features-graph .label-top-right {
+        top: 27%;
+    }
+    
+    #features .features-graph .icon-features-1:after {
+        top: 28.4%;
+    }
+    
+    #features .features-graph .icon-features-2:after {
+        top: 28.4%;
+    }
+    
+    #features .features-graph .icon-features-3:after {
+        top: 28.4%;
+    }
+    
+    #features .features-graph .flash-oval img {
+        top: -23px;
+    }
+    
+    #features .features-graph .icon-features-4:after {
+        bottom: 33%;
+    }
+    
+    #features .features-graph .icon-features-5:after {
+        bottom: 33%;
+    }
+    
+    #features .features-graph .icon-features-6:after {
+        bottom: 33%;
+    }
+    
+    #features .features-graph .animation-holder {
+        margin-top: 25px;
+    }
+    
+    #features .features-graph .label-bottom-left {
+        bottom: 23%;
+    }
+    
+    #features .features-graph .label-bottom {
+        bottom: 23%;
+    }
+    
+    #features .features-graph .label-bottom-right {
+        bottom: 23%;
+    }
+    
+    #features .features-textblock p {
+        line-height: 1.2em;
+    }
+    
+    #features .features-graph .wave {
+        top: -37px;
+    }
+    
+    #features .features-graph .wave1 {
+        top: -37px;
+    }
+    
+    #features .features-graph .wave2 {
+        top: -37px;
+    }
+    
+    #features .features-graph .wave3 {
+        top: -37px;
+    }
+    
+    #features .features-graph .wave4 {
+        top: -37px;
+    }
+
+
 }
 
 @media only screen and (max-width: 736px) {
     .footer_flex .policy a {
         margin-right: 5px;
     }
-
+    
+    #features .features-graph .sq-bt-label {
+        font-size: 12px;
+    } 
+    
+    #features .features-textblock p {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 712px) {
@@ -59,12 +166,6 @@
     
     #menu {
         height: 90vh;
-    }
-    
-    .logo_mobile {
-        display: inline-block;
-        width: 100px;
-        margin-left: 50px    
     }
     
     .main_menu_service .enter {
@@ -136,25 +237,5 @@
     
     .policy_only_mobile a {
         display: none;
-    }
-}
-
-
-@media screen and (orientation:landscape) and (max-device-width: 900px) {
-    html{
-        -webkit-transform: rotate(-90deg);
-           -moz-transform: rotate(-90deg);
-            -ms-transform: rotate(-90deg);
-             -o-transform: rotate(-90deg);
-                transform: rotate(-90deg);
-        -webkit-transform-origin: left top;
-           -moz-transform-origin: left top;
-            -ms-transform-origin: left top;
-             -o-transform-origin: left top;
-                transform-origin: left top;
-        width: 320px; /*Разрешение экрана iPhone*/
-        position: absolute;
-        top: 100%;
-            left: 0
     }
 }
