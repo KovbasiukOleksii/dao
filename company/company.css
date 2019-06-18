@@ -36,7 +36,7 @@
 
 body {
     display: block;
-    background-image: url(../foto_header/head4.jpg);
+    background-image: url(../foto_header/head9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -60,7 +60,7 @@ body {
     top: 0;
     z-index: 1;
     width: 100%;
-    height: 55px;
+    height: 45px;
     -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
     -moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
     box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
@@ -70,7 +70,7 @@ body {
 #menuToggle {
     display: inline-block;
     position: relative;
-    top: 30px;
+    top: 27px;
     left: 0px;
     z-index: 1;
     -webkit-user-select: none;
@@ -151,7 +151,7 @@ body {
 #menuToggle {
     display: inline-block;
     position: relative;
-    top: 30px;
+    top: 27px;
     left: 0px;
     z-index: 1;
     -webkit-user-select: none;
@@ -293,7 +293,7 @@ body {
 .main_menu_line {
     margin-left: 60px;
     display: inline-block; 
-    margin-top: 3px;
+    margin-top: -1px;
 }
 
 .main_menu_line a {
@@ -349,7 +349,7 @@ body {
 .main_menu_service {
     display: inline-block;
     float: right;
-    margin-top: -7px;
+    margin-top: -11px;
 }
 
 .main_menu_service a {
@@ -663,9 +663,9 @@ h5 {
 
 #features .features-graph .flash-oval img {
     position: absolute;
-    width: 70px;
-    right: 15px;
-    top: -2px;
+    width: 120px;
+    right: -12px;
+    top: -25px;
 }
 
 #features .features-graph .btn-with-icon {
@@ -740,6 +740,9 @@ h5 {
     bottom: 13%;
 }
 
+/* graf*/
+
+/*
 #features .features-graph .icon-features-1:after {
     content: ' ';
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/top-left.svg);
@@ -805,6 +808,7 @@ h5 {
     bottom: 25%;
     right: 10%
 }
+*/
 
 #features .features-graph #top-left-line {
     position: absolute;
@@ -1016,6 +1020,7 @@ h5 {
 
 /* PULSE */
 
+/*
 .hidden {
     display:none;
 } 
@@ -1023,6 +1028,7 @@ h5 {
 .visible {
     display:block;
 }
+*/
 
 footer {
     padding: 10px 0;
@@ -1090,13 +1096,26 @@ box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
     margin-bottom: 30px;
 }
 
+.mobile_device .nav {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.mobile_device .nav a {
+    margin-right: 8px;
+    text-decoration: none;
+    color: #007DC4;
+}
+
 
 .mobile_device h1 {
     font-family: "Stylo";
-    font-size: 35px;
+    font-size: 24px;
     color: #007DC4;
-    text-align: center;
+    margin-left: 16px;
     line-height: normal;
+    text-align: center;
 }
 
 .mobile_card {
@@ -1111,6 +1130,7 @@ box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
 .mobile_card img {
     width: 100%;
 }
+
 
 .mobile_card h2 {
     font-family: verdana;
@@ -1140,4 +1160,30 @@ box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
 
 hr {
     width: 70%;
+}
+
+#plant,
+#delivery,
+#aboutPlant,
+#purchase,
+#logistics {
+    padding-top: 55px;
+}
+
+.up-btn {
+	margin: 0;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	width: 41px;
+	height: 41px;
+	z-index: 100;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.up-btn img {
+    position: relative;
+    color: #007DC4;
+    top: 5px;
+    left: 4px;
 }

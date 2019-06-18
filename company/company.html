@@ -7,10 +7,7 @@
     <title>Daoflowers</title>
     <link rel="stylesheet" href="company.css">
     <link rel="stylesheet" href="company_media.css">
-    <link rel="stylesheet" type="text/css" href="../slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="..">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../slick/slick.min.js"></script>
     <script defer src="company.js"></script>
 </head>
 <body>
@@ -128,11 +125,13 @@
                         </div>
                         <div class="animation-holder">
                             <span class="flash-oval">
-                           <img src="https://kovbasiukoleksii.github.io/dao/icon/logomin.png" alt="pulse">
+                           <img src="../img/logo.svg" alt="pulse">
+<!-- PULSE
                            <div class="wave hidden wave-anim"></div>
                            <div class="wave2 hidden wave-anim"></div>
                            <div class="wave3 hidden wave-anim"></div>
                            <div class="wave4 hidden wave-anim"></div>
+-->
                         </span>
                         </div>
                         <div class="button-holder">
@@ -149,6 +148,13 @@
     </section>
     <section class="mobile_device">
         <h1>О компании</h1>
+        <div id="mobileMenu" class="nav">
+            <a href="#plant">Плантациям</a>
+            <a href="#delivery">Поставки</a>
+            <a href="#aboutPlant">О плантациях</a>
+            <a href="#purchase">О закупке</a>
+            <a href="#logistics">Логистика</a>
+        </div>
         <div class="mobile_card">
             <h2>Оптовым покупателям</h2>
             <img src="img_company/image%2045.jpg">
@@ -158,7 +164,7 @@
             <a href="#">Подробнее..</a>
         </div>
         <hr>
-        <div class="mobile_card">
+        <div id="plant" class="mobile_card">
             <h2>Производителям цветов</h2>
             <img src="img_company/image_27.jpg">
             <p class="first_work">Как производителю цветов (плантации) начать работу с Daoflowers?</p>
@@ -170,28 +176,28 @@
             <a href="#">Подробнее..</a>
         </div>
         <hr>
-        <div class="mobile_card">
+        <div id="delivery" class="mobile_card">
             <h2>Организация регулярных поставок</h2>
             <img src="img_company/aviaperevozki-gruzov.jpg">
             <p>Всегда своевременная информация о состоянии заказов, о времени прибытия грузов, о составе грузов, пре-алерты, инвойсы — представляются мгновенно, любые статистические данные - по требованию клиента.</p>
             <a href="#">Подробнее..</a>
         </div>
         <hr>
-        <div class="mobile_card">
+        <div id="aboutPlant" class="mobile_card">
             <h2>Работа с большим количеством плантаций одновременно.</h2>
             <img src="img_company/image%2048.jpg" alt="plant">
             <p><span>Daoflowers</span> - работает более чем с двумя сотнями плантаций на регулярной основе и ещё около 50 плантаций подключает к активной закупке в период максимальных скачков спроса. Благодаря широкому выбору, Daoflowers всегда выполнит заказ оптимальными плантациями, согласно предпочтениям клиентов, а цены будут более чем конкурентоспособны.</p>
             <a href="#">Подробнее..</a>
         </div>
         <hr>
-        <div class="mobile_card">
+        <div id="purchase" class="mobile_card">
             <h2>Индивидуальный подход к закупке цветочных заказов каждого клиента.</h2>
             <img src="img_company/image%2044.2.jpg">
             <p>Индивидуальный подход, забота о каждом клиенте и каждой закупленной позиции – это не просто слова. Мы отчетливо понимаем, что конкуренция на рынке цветов достаточно жесткая, и любой недочет, любая оплошность может привести к тому, что новые заказы не поступят. Поэтому с каждым заказчиком индивидуально работают наши сотрудники, закупка цветов ведется таким образом, чтобы обеспечить оптимальное выполнение потребностей клиента, обеспечить лучшую возможную цену (в требуемом сегменте качества) и исключить неприятные неожиданности.</p>
             <a href="#">Подробнее..</a>
         </div>
         <hr>
-        <div class="mobile_card">
+        <div id="logistics" class="mobile_card">
             <h2>Логистика, профессиональная координация каждой поставки цветов.</h2>
             <img src="img_company/image%2047.1.jpg">
             <p><span>Daoflowers</span> - работает напрямую с лучшими транспортными агентами в Quito, Bogota, Nairobi, лидерами по объёмам доставки цветочной продукции в Европу и Северную Америку. Благодаря еженедельным регулярным поставкам Daoflowers имеет приоритет загрузки в самолёты самых надёжных авиакомпаний на рынке доставки цветов а также существенные скидки в тарифах по сравнению с клиентами, которые доставляют для себя 10-20 коробок цветов в неделю. Очевидно, что в праздничный период Daoflowers первыми получают места на самых надёжных чартерных самолётах</p>
@@ -236,5 +242,8 @@
             </div>
         </div>
     </footer>
+    		<a href="#top" class="up-btn invisible">
+			<img src="../icon/arrowUp.svg" alt="up">
+		</a>
 </body>
 </html>

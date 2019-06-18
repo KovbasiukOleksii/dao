@@ -18,7 +18,8 @@
     .logo_mobile {
         display: inline-block;
         width: 100px;
-        margin-left: 50px    
+        margin-left: 50px;
+        margin-top: -7px;
     }
     
     .app_header img {
@@ -30,7 +31,7 @@
         font-size: 16px;
     }
     .main_menu_service {
-        margin-top: -3px;
+        margin-top: -11px;
     }
     
     .main_menu_service .lang {
