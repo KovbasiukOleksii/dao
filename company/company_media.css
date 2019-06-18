@@ -149,6 +149,9 @@
         height: auto;
     }
     
+    .up-btn {
+        display: block;
+    }
     
     #features {
         display: none;
