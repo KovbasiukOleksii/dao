@@ -1186,6 +1186,11 @@ hr {
 	background-color: #fff;
 	border-radius: 50%;
 }
+
+.up-btn-active {
+    display: block;
+}
+
 .up-btn img {
     position: relative;
     color: #007DC4;
