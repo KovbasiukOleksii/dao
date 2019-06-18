@@ -39,6 +39,7 @@
 }
 
 @media only screen and (max-width: 850px) {
+    
  
     .footer_flex .policy a {
         font-size: 10px;
@@ -140,6 +141,27 @@
 }
 
 @media only screen and (max-width: 736px) {
+    
+    body {
+        overflow: scroll;
+        background: #fff;
+        height: auto;
+    }
+    
+    
+    #features {
+        display: none;
+    }
+    
+    .mobile_device {
+        display: block;
+    }
+    
+    footer {
+        position: relative;
+    }
+    
+    
     .footer_flex .policy a {
         margin-right: 5px;
     }
@@ -189,6 +211,7 @@
     
     .footer_flex .copy {
         order: 2;
+        flex: 10;
     }
     
     .footer_flex .copy p {

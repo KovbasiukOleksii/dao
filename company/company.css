@@ -1084,3 +1084,51 @@ box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
     font-family: verdanaBold; 
 }
 
+.mobile_device {
+    display: none;
+    margin-top: 80px;
+}
+
+
+.mobile_device h1 {
+    font-family: "Stylo";
+    font-size: 35px;
+    color: #007DC4;
+    text-align: center;
+    line-height: normal;
+}
+
+.mobile_card {
+    font-family: verdana;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.mobile_card img {
+    width: 100%;
+}
+
+.mobile_card h2 {
+    font-family: verdana;
+    margin-bottom: 15px;
+}
+
+.mobile_card p {
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.mobile_card a {
+    color: #007DC4;
+    text-decoration: none;
+}
+
+.mobile_card .first_work {
+    font-weight: bold;
+    font-size: 12px;
+}

@@ -873,7 +873,6 @@ footer {
     padding: 10px 0;
     height: 30px;
     width: 100%;
-    background: #E9E9E9;
     position: absolute;
     bottom: 0;
 }
@@ -917,7 +916,7 @@ footer {
             margin-right: 10px;
             
             &:hover {
-                font-family: verdanaBold;
+                text-decoration: underline;
             }
         }
     }
