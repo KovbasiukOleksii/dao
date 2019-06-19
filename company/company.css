@@ -475,7 +475,7 @@ h5 {
 .box {
     display: block;
     position: relative;
-    width: 960px;
+    width: 1000px;
     min-width: 860px;
     margin: 60px auto;
 }
@@ -504,8 +504,8 @@ h5 {
 }
 
 .animated {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 2.5s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
@@ -571,7 +571,7 @@ h5 {
 #features .features-content-col {
     width: 50%;
     text-align: left;
-    margin-top: -15px;
+    margin-top: -6px;
 }
 #features .features-textblock {
     display: none;
@@ -601,7 +601,7 @@ h5 {
 
 #features .features-textblock h2 {
     font-size: 24px;
-    padding-top: 32px;
+    padding-top: 20px;
     font-family: stylo;
     color: #007DC4;
     line-height: 1em;
@@ -636,8 +636,8 @@ h5 {
 }
 
 #features .features-graph {
-    height: 340px;
-    margin: 25px
+    height: 500px;
+    margin: 25px 1px;
 }
 #features .features-graph .button-holder {
     display: flex;
@@ -690,13 +690,15 @@ h5 {
     line-height: 5em;
     z-index: 0;
     cursor: pointer;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-right: 12%;
     text-align: center;
     filter: alpha(opacity=50);
     opacity: .8;
 }
 
+#features .features-graph .btn-with-icon:last-child {
+    margin-right: 0;
+}
 #features .features-graph .btn-with-icon.__active {
     opacity: 1;
     border: 1px solid #007DC4;
@@ -710,7 +712,7 @@ h5 {
 #features .features-graph .sq-bt-label {
     letter-spacing: 0;
     color: #007DC4;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 0;
     position: absolute;
@@ -718,34 +720,25 @@ h5 {
 }
 
 #features .features-graph .label-top-left {
-    right: 34.5%;
-    top: 33%;
+    right: 40.5%;
+    top: 18%;
 }
 
 #features .features-graph .label-top {
-    right: 19.3%;
-    top: 33%
+    right: 26.4%;
+    top: 18%
 }
 
 #features .features-graph .label-top-right {
-    right: 5%;
-    top: 33%
+    right: 12%;
+    top: 18%
 }
 
-#features .features-graph .label-bottom-left {
-    right: 33.2%;
-    bottom: 13%;
+#features .features-graph .label-top-right-right {
+    right: 0.5%;
+    top: 18%
 }
 
-#features .features-graph .label-bottom {
-    right: 19.2%;
-    bottom: 13%;
-}
-
-#features .features-graph .label-bottom-right {
-    right: 4.3%;
-    bottom: 13%;
-}
 
 /* graf*/
 
