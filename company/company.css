@@ -588,6 +588,7 @@ h5 {
 #features .features-textblock img {
     float: right;
     width: 200px;
+    margin-top: -25px;
 }
 
 #features .features-textblock ul li {
@@ -614,7 +615,7 @@ h5 {
 #features .features-textblock h2 {
     font-size: 26px;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-family: stylo;
     color: #007DC4;
     line-height: 1em;
