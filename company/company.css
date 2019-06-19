@@ -569,13 +569,25 @@ h5 {
     border: 0
 }
 #features .features-content-col {
-    width: 50%;
+    width: 90%;
     text-align: left;
     margin-top: -6px;
+    order: 1;
 }
+
+#features .features-content-col-2 {
+    width: 15%;
+    order: 0;
+}
+
 #features .features-textblock {
     display: none;
     position: relative
+}
+
+#features .features-textblock img {
+    float: right;
+    width: 200px;
 }
 
 #features .features-textblock ul li {
@@ -600,8 +612,9 @@ h5 {
 }
 
 #features .features-textblock h2 {
-    font-size: 24px;
-    padding-top: 20px;
+    font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     font-family: stylo;
     color: #007DC4;
     line-height: 1em;
@@ -640,13 +653,9 @@ h5 {
     margin: 25px 1px;
 }
 #features .features-graph .button-holder {
-    display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center
+    display: block;
+    align-items: center;
+    margin-left: 25px;
 }
 
 #features .features-graph .animation-holder {
@@ -690,7 +699,7 @@ h5 {
     line-height: 5em;
     z-index: 0;
     cursor: pointer;
-    margin-right: 15%;
+    margin-bottom: 50px;
     text-align: center;
     filter: alpha(opacity=50);
     opacity: .8;
@@ -720,23 +729,23 @@ h5 {
 }
 
 #features .features-graph .label-top-left {
-    right: 41.5%;
+    left: 16px;
     top: 18%;
 }
 
 #features .features-graph .label-top {
-    right: 27.3%;
-    top: 18%
+    left: 8px;
+    top: 39%
 }
 
 #features .features-graph .label-top-right {
-    right: 13%;
-    top: 18%
+    left: 13px;
+    top: 59%
 }
 
 #features .features-graph .label-top-right-right {
-    right: 0.8%;
-    top: 18%
+    left: -3px;
+    top: 80%
 }
 
 
@@ -998,15 +1007,7 @@ h5 {
     padding: 0
 }
 
-#features .features-graph .button-holder {
-    display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center
-}
+
 
 /* PULSE */
 
