@@ -819,37 +819,27 @@ h5 {
 
 #features .features-graph .icon-features-1 {
     background-image: url(../icon/logomin.png);
-    background-size: 60%;
+    background-size: 55%;
     background-position: 50% 50%;
 }
 
 #features .features-graph .icon-features-2 {
-    background-image: url(../icon/costumerOrder.png);
+    background-image: url(../icon/costumerPref.png);
     background-size: 50%;
     background-position: 50% 50%
 }
 
 #features .features-graph .icon-features-3 {
-    background-image: url(../icon/costumerPlant.png);
-    background-size: 65%
+    background-image: url(../icon/awb.png);
+    background-size: 60%
 }
 
 #features .features-graph .icon-features-4 {
-    background-image: url(../icon/costumerPref.png);
+    background-image: url(../icon/service_icon.png);
     background-size: 70%;
     background-position: 50% 50%
 }
 
-#features .features-graph .icon-features-5 {
-    background-image: url(../icon/service_icon.png);
-    background-size: 80%
-}
-
-#features .features-graph .icon-features-6 {
-    background-image: url(../icon/user_card_ico.png);
-    background-size: 75%;
-    background-position: 50% 50%
-}
 #features .features-graph .wave {
     position: absolute;
     opacity: 0;
