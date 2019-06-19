@@ -475,7 +475,7 @@ h5 {
 .box {
     display: block;
     position: relative;
-    width: 1000px;
+    width: 1200px;
     min-width: 860px;
     margin: 60px auto;
 }
@@ -690,7 +690,7 @@ h5 {
     line-height: 5em;
     z-index: 0;
     cursor: pointer;
-    margin-right: 12%;
+    margin-right: 15%;
     text-align: center;
     filter: alpha(opacity=50);
     opacity: .8;
@@ -720,22 +720,22 @@ h5 {
 }
 
 #features .features-graph .label-top-left {
-    right: 40.5%;
+    right: 41.5%;
     top: 18%;
 }
 
 #features .features-graph .label-top {
-    right: 26.4%;
+    right: 27.3%;
     top: 18%
 }
 
 #features .features-graph .label-top-right {
-    right: 12%;
+    right: 13%;
     top: 18%
 }
 
 #features .features-graph .label-top-right-right {
-    right: 0.5%;
+    right: 0.8%;
     top: 18%
 }
 
