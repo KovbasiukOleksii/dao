@@ -1122,6 +1122,7 @@ footer {
     margin-right: 30px;
     text-decoration: none;
     color: #007DC4;
+    line-height: 1.8em;
 }
 
 .mobile_device .nav a:last-child {
@@ -1182,10 +1183,11 @@ hr {
     width: 70%;
 }
 
-#pref,
-#goals,
-#aboutPlant,
-#work {
+#plant,
+#cargo,
+#handling,
+#trak,
+#air {
     padding-top: 55px;
 }
 
