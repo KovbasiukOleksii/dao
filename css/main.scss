@@ -1,4 +1,4 @@
-/* background */
+/* MAIN BLOCK */
 
 
 .main {
@@ -18,7 +18,7 @@
 }
 
 
-
+/* ANIMATE BG */
 
 //@keyframes slideBg {
 //    10% {
@@ -73,6 +73,7 @@
 //}
 
 
+/* BURGER MENU NAVIGATION */
 
 #menuToggle {
     display: inline-block;
@@ -219,11 +220,13 @@
     transform: none;
 }
 
-/* nav end */
-
 .navigation {
     margin-top: -15px;
 }
+
+/* BURGER END */
+
+/* HEADER MENU LINE */
 
 .main_menu_line {
     margin-left: 60px;
@@ -703,6 +706,11 @@
     
 }
 
+/* END HEADER MENU LINE */
+
+/* CENTRAL BLOCK TITLE */
+/* LEFT BLOCK */
+
 .title {
     margin: 50px 60px;
     display: flex;
@@ -713,12 +721,16 @@
     right: 1.5%;
     top: 6%;
     
+    /* LOGO RIGHT BLOCK */
+    
     &_logo {
         svg {
             width: 350pt;
             height: 180pt;
         }
     }
+    
+    /* END LOGO RIGHT BLOCK */
     
     h1 {
         font-size: 40.5px;
@@ -759,6 +771,10 @@
     }
 }
 
+/* END CENTRAL BLOCK TITLE */
+
+/* MAIN BLOCK CONTACT + NEWS + APP */
+
 .main_info {
     display: flex;
     justify-content: space-between;
@@ -767,6 +783,8 @@
     left: 1.5%;
     right: 1.5%;
     bottom: 7%;
+    
+    /* CONTACT BLOCK */
     
     .contact {
         width: 440px;
@@ -814,6 +832,16 @@
         }
     }
     
+    .contact_call {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        
+    }
+    
+    /* END CONTACT BLOCK */
+    /* NEWS BLOCK */
+    
     .news {
         flex: 5;
         
@@ -845,6 +873,9 @@
         }
     }
     
+    /* END NEWS BLOCK */
+    /* APP BLOCK */
+    
     .app {
         flex: 0;
         
@@ -857,17 +888,19 @@
         }
     }
     
-    .contact_call {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        
-    }
+    /* END APP BLOCK */
+    
 }
+
+/* END MAIN BLOCK CONTACT + NEWS + APP */
+
+/* POLICY BLOCK ONLY MOBILE */
 
 .policy_only_mobile {
     display: none;
 }
+
+/* FOOTER (copy/clock/policy)*/
 
 footer {
     padding: 10px 0;
@@ -882,6 +915,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     
+    /* COPY BLOCK */
+    
     .copy {
         flex: 1;
         
@@ -890,6 +925,10 @@ footer {
             color: #535353;
         }
     }
+    
+    /* END COPY BLOCK */
+    
+    /* CLOCK BLOCK */
     
     .clock {
         flex: 1;
@@ -904,6 +943,10 @@ footer {
             margin-right: 20px;
         }
     }
+    
+    /* END BLOCK COPY */
+    
+    /* POLISY BLOCK */
     
     .policy {
         flex: 1;
@@ -920,7 +963,13 @@ footer {
             }
         }
     }
+    
+    /* END BLOCK POLICY */
 }
+
+/* END FOOTER (copy/clock/policy) */
+
+/* INFO BLOCK FOR SEO */
 
 .section_info {
     margin-top: 50px;
@@ -936,3 +985,5 @@ footer {
         font-family: verdanaBold;
     }
 }
+
+/* END INFO BLOCK FOR SEO */
