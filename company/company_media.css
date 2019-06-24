@@ -4,6 +4,64 @@
     }
 }
 
+@media only screen and (max-width: 1230px) {
+    .box {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .box {
+        width: 870px;
+    }
+    
+    #features .features-content {
+        flex-flow: column;
+    }
+    
+    #features .features-graph .button-holder {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #features .features-graph .btn-with-icon {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    
+    #features .features-graph {
+        height: auto;
+    }
+    
+    #features .features-content-col,
+    #features .features-content-col-2 {
+        width: 100%;
+    }
+    
+    #features .features-graph .label-top-left {
+        left: 7.5%;
+        top: 17%;
+    }
+    
+    #features .features-graph .label-top {
+        left: 31.1%;
+        top: 17%;
+    }
+    
+    #features .features-graph .label-top-right {
+        left: 57%;
+        top: 17%;
+    }
+    
+    #features .features-graph .label-top-right-right {
+        left: 80%;
+        top: 17%;
+    }
+
+}
+
+
 @media only screen and (max-width: 1170px) {
     .main_menu_service .lang {
         display: none;
@@ -30,6 +88,7 @@
     .main_menu_service a {
         font-size: 16px;
     }
+    
     .main_menu_service {
         margin-top: -11px;
     }
@@ -39,9 +98,9 @@
     }
 }
 
+
 @media only screen and (max-width: 850px) {
     
- 
     .footer_flex .policy a {
         font-size: 10px;
     }
@@ -54,91 +113,6 @@
         flex: 0.5;
     }
     
-    #features .features-graph .btn-with-icon {
-        height: 55px;
-    }
-    
-    #features .features-graph .label-top-left {
-        top: 27%;
-    }
-    
-    #features .features-graph .label-top {
-        top: 27%;
-    }
-    
-    #features .features-graph .label-top-right {
-        top: 27%;
-    }
-    
-    #features .features-graph .icon-features-1:after {
-        top: 28.4%;
-    }
-    
-    #features .features-graph .icon-features-2:after {
-        top: 28.4%;
-    }
-    
-    #features .features-graph .icon-features-3:after {
-        top: 28.4%;
-    }
-    
-    #features .features-graph .flash-oval img {
-        top: -23px;
-    }
-    
-    #features .features-graph .icon-features-4:after {
-        bottom: 33%;
-    }
-    
-    #features .features-graph .icon-features-5:after {
-        bottom: 33%;
-    }
-    
-    #features .features-graph .icon-features-6:after {
-        bottom: 33%;
-    }
-    
-    #features .features-graph .animation-holder {
-        margin-top: 25px;
-    }
-    
-    #features .features-graph .label-bottom-left {
-        bottom: 23%;
-    }
-    
-    #features .features-graph .label-bottom {
-        bottom: 23%;
-    }
-    
-    #features .features-graph .label-bottom-right {
-        bottom: 23%;
-    }
-    
-    #features .features-textblock p {
-        line-height: 1.2em;
-    }
-    
-    #features .features-graph .wave {
-        top: -37px;
-    }
-    
-    #features .features-graph .wave1 {
-        top: -37px;
-    }
-    
-    #features .features-graph .wave2 {
-        top: -37px;
-    }
-    
-    #features .features-graph .wave3 {
-        top: -37px;
-    }
-    
-    #features .features-graph .wave4 {
-        top: -37px;
-    }
-
-
 }
 
 @media only screen and (max-width: 736px) {
@@ -264,5 +238,16 @@
     
     .policy_only_mobile a {
         display: none;
+    }
+}
+
+@media only screen and (max-height: 760px) {
+    body {
+        overflow: auto;
+        height: auto;
+    }
+    
+    footer {
+        position: relative;
     }
 }
