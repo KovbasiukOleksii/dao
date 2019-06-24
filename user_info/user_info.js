@@ -36,6 +36,9 @@ body.addEventListener('click', function () {
     search.classList.remove('search-active');
 });
 
+
+
+
 var clock = document.getElementById('clock');
 
 function hexoClock() {

@@ -1,38 +1,22 @@
 @font-face {
     font-family: verdana; /* Гарнитура шрифта */
-    src: url(../css/fonts/verdana.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/verdana.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: verdanaBold; /* Гарнитура шрифта */
-    src: url(../css/fonts/verdanab.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/verdanab.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
 	font-family: Stylo;
-	src: url(../css/fonts//Stylo.eot);
-	src: local('☺'), url(../css/fonts/Stylo.woff) format('woff'), url(../css/fonts//Stylo.ttf) format('truetype'), url('fonts/css/Stylo.svg') format('svg');
+	src: url(../fonts//Stylo.eot);
+	src: local('☺'), url(../fonts/Stylo.woff) format('woff'), url(../fonts//Stylo.ttf) format('truetype'), url('fonts/css/Stylo.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 
-@font-face {
-    font-family: "icons";
-    src: url(../fonts/icons.woff) format("woff");
-    src: url(../fonts/icons.svg) format("svg");
-    src: url(../fonts/icons.eot) format("eot");
-    src: url(../fonts/icons.eot) format("embedded-opentype");
-    src: url(../fonts/icons.ttf) format("truetype")
-}
-@font-face {
-    font-family: "PragmaticaSlab";
-    src: url(../fonts/PragmaticaSlab-Medium.woff) format("woff");
-    src: url(../fonts/PragmaticaSlab-Medium.svg) format("svg");
-    src: url(../fonts/PragmaticaSlab-Medium.eot) format("eot");
-    src: url(../fonts/PragmaticaSlab-Mediumns.eot) format("embedded-opentype");
-    src: url(../fonts/PragmaticaSlab-Medium.ttf) format("truetype")
-}
 
 body {
     display: block;

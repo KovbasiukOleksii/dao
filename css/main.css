@@ -14,6 +14,9 @@
   -webkit-backface-visibility: hidden;
   animation-delay: 1s; }
 
+.container {
+  margin: 0 30px 0 30px; }
+
 /* ANIMATE BG */
 /* @keyframes slideBg {
     10% {
