@@ -1,71 +1,36 @@
+@media only screen and (max-width: 1400px) {
+    .main_content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 @media only screen and (max-width: 1366px) {
     .main_menu_line {
         margin-left: 50px;
     }
 }
 
-@media only screen and (max-width: 1230px) {
-    .box {
-        width: 1000px;
-    }
-}
-
-@media only screen and (max-width: 1020px) {
-    .box {
-        width: 870px;
-    }
-    
-    #features .features-content {
-        flex-flow: column;
-    }
-    
-    #features .features-graph .button-holder {
-        margin-left: 0;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    #features .features-graph .btn-with-icon {
-        display: inline-block;
-        margin-bottom: 0;
-    }
-    
-    #features .features-graph {
-        height: auto;
-    }
-    
-    #features .features-content-col,
-    #features .features-content-col-2 {
-        width: 100%;
-    }
-    
-    #features .features-graph .label-top-left {
-        left: 7.5%;
-        top: 17%;
-    }
-    
-    #features .features-graph .label-top {
-        left: 31.1%;
-        top: 17%;
-    }
-    
-    #features .features-graph .label-top-right {
-        left: 57%;
-        top: 17%;
-    }
-    
-    #features .features-graph .label-top-right-right {
-        left: 80%;
-        top: 17%;
-    }
-
-}
 
 
 @media only screen and (max-width: 1170px) {
     .main_menu_service .lang {
         display: none;
     }
+        
+    .footer_flex .policy a {
+        font-size: 10px;
+    }
+    
+    .footer_flex .copy {
+        flex: 0.5;
+    }
+    
+    .footer_flex .policy {
+        flex: 0.5;
+    }
+    
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -99,34 +64,10 @@
 }
 
 
-@media only screen and (max-width: 850px) {
-    
-    .footer_flex .policy a {
-        font-size: 10px;
-    }
-    
-    .footer_flex .copy {
-        flex: 0.5;
-    }
-    
-    .footer_flex .policy {
-        flex: 0.5;
-    }
-    
-}
+
+
 
 @media only screen and (max-width: 736px) {
-    
-    body {
-        overflow: scroll;
-        background: #fff;
-        height: auto;
-    }
-    
-    .up-btn {
-        display: block;
-    }
-    
     #features {
         display: none;
     }
@@ -143,23 +84,12 @@
     .footer_flex .policy a {
         margin-right: 5px;
     }
-    
-    #features .features-graph .sq-bt-label {
-        font-size: 12px;
-    } 
-    
-    #features .features-textblock p {
-        font-size: 12px;
-    }
 }
 
-@media only screen and (max-width: 712px) {
-
-}
 
 
 @media only screen and (max-width: 640px) {
-    .container {
+    .main_content {
         margin-right: 16px;
         margin-left: 16px;
     }
@@ -223,6 +153,12 @@
         color: #007DC4;
         margin-right: 5px;
     }
+    
+    .main_content_card img {
+        display: block;
+        width: 100%;
+        
+    }
 }
 
 @media only screen and (max-width: 376px) {
@@ -231,23 +167,18 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 440px) {
+    
+    .container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
     .clock_item p {
         font-size: 11px;
     }
     
     .policy_only_mobile a {
         display: none;
-    }
-}
-
-@media only screen and (max-height: 760px) {
-    body {
-        overflow: auto;
-        height: auto;
-    }
-    
-    footer {
-        position: relative;
     }
 }
