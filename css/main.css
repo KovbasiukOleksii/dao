@@ -142,7 +142,7 @@
   width: 250px;
   height: 100vh;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding-left: 50px;
   padding-top: 100px;
   background: #fff;
   list-style-type: none;
