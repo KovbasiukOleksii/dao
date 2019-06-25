@@ -476,6 +476,11 @@ body {
     font-weight: bold;
 }
 
+.main_content a {
+    text-decoration: none;
+    color: #007DC4;
+}
+
 
 footer {
     padding: 10px 0;

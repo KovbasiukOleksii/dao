@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1400px) {
+    .main_content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .main_menu_line {
+        margin-left: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1170px) {
+    .main_menu_service .lang {
+        display: none;
+    }
+        
+    .footer_flex .policy a {
+        font-size: 10px;
+    }
+    
+    .footer_flex .copy {
+        flex: 0.5;
+    }
+    
+    .footer_flex .policy {
+        flex: 0.5;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .main_menu_line {
+        display: none;
+    }
+    
+    .logo_mobile {
+        display: inline-block;
+        width: 100px;
+        margin-left: 50px;
+        margin-top: -7px;
+    }
+    
+    .app_header img {
+        margin-right: 30px;
+        margin-top: 1px;
+    }
+    
+    .main_menu_service a {
+        font-size: 16px;
+    }
+    
+    .main_menu_service {
+        margin-top: -11px;
+    }
+    
+    .main_menu_service .lang {
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 736px) {
+    #features {
+        display: none;
+    }
+    
+    .mobile_device {
+        display: block;
+    }
+    
+    footer {
+        position: relative;
+    }
+    
+    
+    .footer_flex .policy a {
+        margin-right: 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .main_content {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    
+    #menu {
+        height: 90vh;
+    }
+    
+    .main_menu_service .enter {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    
+    .main_menu_service .search_img {
+        margin-right: 10px;
+    }
+    
+    footer {
+        height: 45px;
+        line-height: 0;
+    }
+    
+    .footer_flex {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .footer_flex .copy {
+        order: 2;
+        flex: 10;
+    }
+    
+    .footer_flex .copy p {
+        font-size: 8px;
+        margin-top: -2px;
+    }
+    
+    .policy {
+        display: none;
+    }
+    .footer_flex .clock {
+        width: 100%;
+        flex: none;
+        padding-bottom: 4px;
+    }
+    
+    .policy_only_mobile {
+        display: block;
+        margin-left: 16px;
+        margin-right: 16px;
+        position: absolute;
+        bottom: 11%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
+    .policy_only_mobile a {
+        text-decoration: none;
+        font-size: 9px;
+        color: #007DC4;
+        margin-right: 5px;
+    }
+    
+    .main_content_card img {
+        display: block;
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .policy_only_mobile a {
+        margin-right: 1px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    
+    .container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .clock_item p {
+        font-size: 11px;
+    }
+    
+    .policy_only_mobile a {
+        display: none;
+    }
+}
