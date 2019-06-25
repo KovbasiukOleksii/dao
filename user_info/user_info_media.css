@@ -21,20 +21,23 @@
         width: 960px;
     }
     
+    
+    
     #features .features-graph .label-top-three {
-        left: 32%;
+        left: 42%;
     }
     
     #features .features-graph .label-top-four {
-        right: 34.5%;
+        right: 21%;
+    }
+    
+    
+    #features .features-graph .label-top-two {
+        left: 22.7%;
     }
     
     #features .features-graph .label-top-five {
-        right: 14.5;
-    }
-    
-    #features .features-graph .label-top-two {
-        left: 18%;
+        right: 1.5%;
     }
 }
 
