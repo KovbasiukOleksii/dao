@@ -449,14 +449,64 @@ body {
 
 .contact {
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 965px;
     padding-top: 80px;
+}
+
+.contact_info {
+    display: flex;
 }
 
 .contact h1 {
     font-size: 28px;
     color: #007DC4;
     font-family: stylo;
+}
+
+.contact_info-all {
+    width: 400px;
+}
+
+.contact_info-all img {
+    margin-bottom: -3px;
+    margin-right: 0px;
+}
+
+.contact_info-all a {
+    margin-top:  0;
+    text-decoration: none;
+    color: #007DC4;
+}
+
+.contact_info-managers {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.contact_info-managers span {
+    text-decoration: underline;
+    color: #007DC4;
+    margin-left: 30px;
+}
+
+.contact_info-managers-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_info-managers-card img {
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+
+.contact_info-managers-card a {
+    text-decoration: none;
+    color: #007DC4;
+}
+
+.contact_info-managers-card p {
+    line-height: 5px;
 }
 
 
