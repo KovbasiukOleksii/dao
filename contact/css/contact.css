@@ -449,7 +449,7 @@ body {
 
 .contact {
     margin: 0 auto;
-    max-width: 965px;
+    max-width: 980px;
     padding-top: 80px;
 }
 
@@ -464,7 +464,7 @@ body {
 }
 
 .contact_info-all {
-    width: 400px;
+    margin-right: 200px;
 }
 
 .contact_info-all img {
@@ -478,10 +478,8 @@ body {
     color: #007DC4;
 }
 
-.contact_info-managers {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
+.contact_info-managers-two {
+    margin-top: 90px;
 }
 
 .contact_info-managers span {

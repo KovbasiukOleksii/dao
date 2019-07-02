@@ -40,6 +40,14 @@
     .main_menu_service .lang {
         display: none;
     }
+    
+    .contact_info-all {
+        margin-right: 30px;
+    }
+    
+    .contact {
+        max-width: 800px;
+    }
 }
 
 
@@ -55,6 +63,19 @@
     
     .footer_flex .policy {
         flex: 0.5;
+    }
+    
+    .contact_info-all p {
+        display: inline-block;
+        margin-right: 30px;
+    }
+    
+    .contact_info {
+        display: block;
+    }
+    
+    contact_info-all {
+        m
     }
     
 }
@@ -83,6 +104,57 @@
         margin-right: 16px;
         margin-left: 16px;
     }
+    
+    .contact {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-top: 50px;
+    }
+    
+    .contact h1 {
+        text-align: center;
+    }
+    
+    .contact h3 {
+        text-align: center;
+        margin-top: 30px;
+    } 
+    
+    
+    .contact_info-managers span {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    
+    .contact_info-all {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .contact_info-all p {
+        display: block;
+        margin-right: 0;
+    }
+    
+    .contact_info-managers-card {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact_info-managers-card p {
+        line-height: normal;
+    }
+    
+    .contact_info-managers-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    
     
     #menu {
         height: 90vh;
