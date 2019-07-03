@@ -233,7 +233,7 @@
     }
 }
 
-@media only screen and (max-height: 760px) {
+@media only screen and (max-height: 530px) {
     body {
         overflow: auto;
         height: auto;
