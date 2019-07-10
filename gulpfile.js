@@ -5,12 +5,12 @@ const watch = require('gulp-watch');
 
 
 gulp.task('sass', () => {
-   return gulp.src('./css/**/*.scss')
+   return gulp.src('./catalog_flower/css/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: ''}).on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('./catalog_flower/css'));
 });
 gulp.task('watch', () => {
-    gulp.watch('./css/**/*.scss', gulp.series('sass'))
+    gulp.watch('./catalog_flower/css/*.scss', gulp.series('sass'))
 });
