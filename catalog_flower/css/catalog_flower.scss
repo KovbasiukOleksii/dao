@@ -514,11 +514,7 @@
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: auto;
             grid-row-gap: 30px;
-            grid-template-areas:
-                "a b c d e"
-                "f g h i j"
-                "k l m n o";
-            
+
             &-item {
                 padding: 0 20px 10px 20px;
                 border-left: 2px solid #EAEAEA;
