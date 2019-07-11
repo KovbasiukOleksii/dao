@@ -408,6 +408,7 @@
         }
         
         ul {
+            display: none;
             padding-left: 0;
             text-transform: capitalize;
             
@@ -464,6 +465,7 @@
     }
     
     .filter {
+        display: none;
         margin-bottom: 15px;
         
         h4 {

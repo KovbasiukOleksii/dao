@@ -306,6 +306,7 @@
     font-family: verdana;
     margin: 15px 0 15px 0; }
   .main_content-menu ul {
+    display: none;
     padding-left: 0;
     text-transform: capitalize; }
     .main_content-menu ul .drop-menu li {
@@ -340,6 +341,7 @@
     float: right;
     margin-top: 7px; }
   .main_content .filter {
+    display: none;
     margin-bottom: 15px; }
     .main_content .filter h4 {
       color: #000; }
