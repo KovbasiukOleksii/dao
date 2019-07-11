@@ -32,6 +32,10 @@
     position: fixed;
     left: 0;
     right: 0;
+    -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    -moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    
 }
 
 /* BURGER MENU NAVIGATION */
@@ -369,7 +373,7 @@
 
 
 .main_content {
-    padding-top: 70px;
+    padding-top: 80px;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -551,4 +555,63 @@
             }
         }
     }
+}
+
+footer {
+    padding: 10px 0;
+    height: 40px;
+    width: 100%;
+    background: #E9E9E9;
+    position: absolute;
+    bottom: 0; 
+    -webkit-box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+    -moz-box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+    box-shadow: 0px -11px 9px -2px rgba(161,161,161,1);
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+  
+.footer_flex .copy {
+    flex: 1; 
+}
+
+.footer_flex .copy p {
+      font-size: 10px;
+      color: #535353; 
+}
+  
+.footer_flex .clock {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+}
+    
+.footer_flex .clock .city {
+    font-family: verdanaBold; 
+}
+
+.footer_flex .clock_item {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.footer_flex .policy {
+    flex: 1;
+    text-align: right; 
+}
+    
+.footer_flex .policy a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #007DC4;
+    margin-right: 10px; 
+}
+      
+.footer_flex .policy a:hover {
+    text-decoration: underline;
 }
