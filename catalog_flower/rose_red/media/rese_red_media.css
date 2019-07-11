@@ -178,46 +178,45 @@
 
 @media only screen and (max-width: 615px) {
     .catalog_table .number {
-        width: 5%;
+        width: 2%;
+        padding: 0 2px;
         border-top-left-radius: 10px;
     }
 
     .catalog_table .abbr {
         width: 5%;
+        padding: 0 2px;
     }
 
     .catalog_table .sort {
-        width: 28%;
+        width: 25%;
+        padding: 0 2px;
     }
 
     .catalog_table .size {
         width: 25%;
+        padding: 0 2px;
     }
 
     .catalog_table .procent {
         width: 20%;
+        padding: 0 2px;
     }
 
     .catalog_table .foto {
         width: 8%;
+        padding: 0 2px;
         border-top-right-radius: 10px;
     }
 }
 
 @media only screen and (max-width: 440px) {
-    .catalog_table .number {
-        display: none;
-    }
-    
+
     .catalog_table .abbr {
         display: none;
     }
     
     .catalog_table td:nth-child(2) {
-        display: none;
-    }
-    
-    .catalog_table td:first-child {
         display: none;
     }
     

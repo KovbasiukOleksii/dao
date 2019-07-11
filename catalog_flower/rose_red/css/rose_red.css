@@ -429,11 +429,11 @@
 .catalog_table table td {
   border-bottom: 1px solid grey;
   text-align: center;
-  height: 45px;
+  height: 40px;
   text-transform: capitalize; }
 
 .catalog_table table td img {
-  height: 35px; }
+  width: 35px; }
 
 .catalog_table table tr:hover {
   background: #D6E9F5;
