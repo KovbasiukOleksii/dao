@@ -7,6 +7,11 @@
 @media only screen and (max-width: 1230px) {
     .main_content-catalog .catalog_grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                "a b c d"
+                "e f g h"
+                "i j k l"
+                "m n o p";
     }
 }
 
@@ -21,6 +26,12 @@
     
     .main_content-catalog .catalog_grid {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+                "a b c"
+                "d e f"
+                "g h i"
+                "j k l"
+                "m n o";
     }
 }
 
@@ -77,6 +88,14 @@
     
     .main_content-catalog .catalog_grid {
         grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "a b"
+                "c d"
+                "e f"
+                "g h"
+                "i j"
+                "k l"
+                "m n";
     }
     
 }
@@ -135,6 +154,12 @@
     .main_content-catalog .catalog_grid {
         grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 16px;
+        grid-template-areas:
+                "a b c"
+                "d e f"
+                "g h i"
+                "j k l"
+                "m n o";
     }
     
     .main_content-catalog .catalog_grid-item {
@@ -194,6 +219,14 @@
 @media only screen and (max-width: 440px) {
     .main_content-catalog .catalog_grid {
         grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "a b"
+                "c d"
+                "e f"
+                "g h"
+                "i j"
+                "k l"
+                "m n";
     }
     
     .main_content-catalog .catalog_grid-item {
