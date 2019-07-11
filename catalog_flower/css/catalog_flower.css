@@ -396,6 +396,8 @@
       .main_content-catalog .catalog_grid-item p {
         font-size: 10px;
         margin-bottom: 0; }
+      .main_content-catalog .catalog_grid-item .no-active {
+        color: grey; }
 
 footer {
   padding: 10px 0;
