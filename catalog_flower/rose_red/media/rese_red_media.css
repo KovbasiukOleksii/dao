@@ -51,6 +51,26 @@
         display: none;
     }
     
+    .fixed_title {
+        padding: 10px 16px 0 16px;
+        position: fixed;
+        background: #fff;
+        left: 0;
+        right: 0;
+        top: 50px;
+        -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+        -moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+        box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    }
+    
+    .main_content-catalog h2 {
+        margin-bottom: 10px;
+    }
+    
+    .catalog_table {
+        padding-top: 90px;
+    }
+    
     
     .footer_flex .policy a {
         font-size: 10px;
