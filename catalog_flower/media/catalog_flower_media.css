@@ -83,6 +83,7 @@
     .main_content {
         margin: 0 16px;
         margin-bottom: 50px;
+        grid-template-columns: 1fr;
     }
     
     .main_content-catalog .catalog_grid {
@@ -163,7 +164,7 @@
     
     .main_content-catalog .catalog_grid-item {
         border-left: none;
-        padding: 0 10px 0 10px;
+        margin: 0 auto;
     }
     
     footer {
