@@ -30,11 +30,9 @@
   background: #E9E9E9;
   height: 50px;
   position: fixed;
+  z-index: 1;
   left: 0;
-  right: 0;
-  -webkit-box-shadow: 0px 11px 9px -2px #a1a1a1;
-  -moz-box-shadow: 0px 11px 9px -2px #a1a1a1;
-  box-shadow: 0px 11px 9px -2px #a1a1a1; }
+  right: 0; }
 
 /* BURGER MENU NAVIGATION */
 #menuToggle {
@@ -394,7 +392,8 @@
 
 .catalog_table table td a {
   text-decoration: none;
-  color: blue; }
+  color: blue;
+  text-align: center; }
 
 .catalog_table table td a:hover {
   color: darkorange; }
@@ -416,7 +415,7 @@
   width: 15%; }
 
 .catalog_table .foto {
-  width: 10%;
+  width: 4%;
   border-top-right-radius: 10px; }
 
 .catalog_table table th {
@@ -433,7 +432,8 @@
   text-transform: capitalize; }
 
 .catalog_table table td img {
-  width: 35px; }
+  width: 40px;
+  float: right; }
 
 .catalog_table table tr:hover {
   background: #D6E9F5;

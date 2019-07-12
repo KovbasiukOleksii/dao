@@ -30,11 +30,9 @@
     background: #E9E9E9;
     height: 50px;
     position: fixed;
+    z-index: 1;
     left: 0;
     right: 0;
-    -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
-    -moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
-    box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
     
 }
 
@@ -543,6 +541,7 @@
 .catalog_table table td a {
     text-decoration: none;
     color: blue;
+    text-align: center;
 }
 
 .catalog_table table td a:hover {
@@ -571,7 +570,7 @@
 }
 
 .catalog_table .foto {
-    width: 10%;
+    width: 4%;
     border-top-right-radius: 10px;
 }
 
@@ -592,7 +591,8 @@
 }
 
 .catalog_table table td img {
-    width: 35px;
+    width: 40px;
+    float: right;
 }
 
 
