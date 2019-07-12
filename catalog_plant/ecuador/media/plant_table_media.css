@@ -1,0 +1,232 @@
+@media only screen and (max-width: 1366px) {
+    .main_menu_line {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .main_content {
+        margin: 0 30px 0 30px;
+    }
+    
+    .main_menu_service .lang {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .main_menu_line {
+        display: none;
+    }
+    
+    .logo_mobile {
+        display: inline-block;
+        width: 100px;
+        margin-left: 50px;
+        margin-top: -7px;
+    }
+    
+    .app_header img {
+        margin-right: 30px;
+        margin-top: 1px;
+    }
+    
+    .main_menu_service a {
+        font-size: 16px;
+    }
+    
+    .main_menu_service {
+        margin-top: -11px;
+    }
+    
+    .main_menu_service .lang {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .main_content-menu {
+        display: none;
+    }
+    
+    .mobile_catalog-search {
+        display: block;
+        width: 100%;
+    }
+    
+    .fixed_title {
+        padding: 10px 16px 0 16px;
+        position: fixed;
+        background: #fff;
+        left: 0;
+        right: 0;
+        top: 50px;
+        -webkit-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+        -moz-box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+        box-shadow: 0px 11px 9px -2px rgba(161,161,161,1);
+    }
+    
+    .main_content-catalog h2 {
+        margin-bottom: 10px;
+    }
+    
+    .catalog_plant {
+        padding-top: 90px;
+    }
+    
+    
+    .footer_flex .policy a {
+        font-size: 10px;
+    }
+    
+    .footer_flex .copy {
+        flex: 0.5;
+    }
+    
+    .footer_flex .policy {
+        flex: 0.5;
+    }
+    
+    .main_content {
+        margin: 0 10px;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    
+    #menu {
+        height: 90vh;
+    }
+    
+    .main_menu_service .enter {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    
+    .main_menu_service .search_img {
+        margin-right: 10px;
+    }
+    
+    .main_content-catalog .catalog_grid-item {
+        border-left: none;
+        margin: 0 auto;
+        
+    }
+}
+
+
+@media only screen and (max-width: 615px) {
+    .catalog_plant .number {
+        width: 2%;
+        padding: 0 2px 0 0;
+        border-top-left-radius: 0px;
+    }
+
+    .catalog_plant .abbr {
+        width: 5%;
+        padding: 0 2px;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+    
+    .catalog_plant table thead {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 140px;
+    }
+    
+    .catalog_plant table td img {
+        float: right;
+    }
+
+    .catalog_plant .abbr {
+        display: none;
+    }
+    
+    .catalog_plant table {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    
+    .catalog_plant td:nth-child(2) {
+        display: none;
+    }
+    
+    .catalog_plant .sort {
+        width: 15%;
+    }
+    
+    .catalog_plant .brand {
+        width: 25%;
+    }
+    
+    .catalog_plant .foto {
+        width: 50%;
+    }
+    
+    .main_content-catalog .catalog_grid-item {
+        padding: 0 5px 10px 0;
+    }
+    
+    .catalog_plant table {
+        box-shadow: none;
+    }
+    
+    .catalog_plant .number {
+        width: 2%;
+        padding: 0 2px 0 12px;
+        border-top-left-radius: 0px;
+    }
+    
+    .catalog_plant td:nth-child(3) {
+        width: 30%;
+        padding: 0 2px;
+    }
+
+    .catalog_table td:nth-child(5) {
+        width: 22%;
+        padding: 0 2px;
+    }
+
+    .catalog_plant .foto {
+        width: 8%;
+        padding: 0 10px 0 2px;
+        border-top-right-radius: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 376px) {
+    .policy_only_mobile a {
+        margin-right: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .clock_item p {
+        font-size: 11px;
+    }
+    
+    .policy_only_mobile a {
+        display: none;
+    }
+    
+    .main_content-catalog .catalog_grid-item img {
+        max-width: 130px;
+    }
+    
+    .main_content-catalog .catalog_grid-item h3 {
+        font-size: 15px;
+    }
+}

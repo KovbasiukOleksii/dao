@@ -5,12 +5,12 @@ const watch = require('gulp-watch');
 
 
 gulp.task('sass', () => {
-   return gulp.src('./catalog_flower/rose_red/css/*.scss')
+   return gulp.src('./catalog_plant/ecuador/css/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: ''}).on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
-        .pipe(gulp.dest('./catalog_flower/rose_red/css'));
+        .pipe(gulp.dest('./catalog_plant/ecuador/css'));
 });
 gulp.task('watch', () => {
-    gulp.watch('./catalog_flower/rose_red/css/*.scss', gulp.series('sass'))
+    gulp.watch('./catalog_plant/ecuador/css/*.scss', gulp.series('sass'))
 });
