@@ -667,7 +667,9 @@ footer {
 /* END FOOTER (copy/clock/policy) */
 /* INFO BLOCK FOR SEO */
 .section_info {
-  margin-top: 50px; }
+  padding-top: 50px;
+  background: #fff;
+  position: relative; }
   .section_info p {
     margin-bottom: 10px;
     text-align: justify;
