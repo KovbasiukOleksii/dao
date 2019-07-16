@@ -191,11 +191,17 @@
         margin-left: 16px;
     }
     
+    #open-left {
+        padding-top: 20px;
+    }
+    
+    .burger_menu {
+        padding-left: 20px;
+    }
         
     .logo_mobile {
         display: inline-block;
-        width: 110px;
-        margin-left: 50px    
+        width: 110px;   
     }
     
     .main_menu_service .enter {
@@ -206,7 +212,6 @@
     .main_menu_service .search_img {
         margin-right: 10px;
     }
-    
     
     .title {
         margin-left: 16px;

@@ -37,7 +37,7 @@ body {
 
 .burger_menu {
   padding-top: 30px;
-  padding-left: 40px; }
+  padding-left: 20px; }
   .burger_menu ul {
     list-style: none; }
     .burger_menu ul li {
@@ -120,7 +120,8 @@ body {
 /* BURGER END */
 /* HEADER MENU LINE */
 .main_menu_line {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 20px; }
   .main_menu_line a {
     text-decoration: none;
     color: #007DC4;
